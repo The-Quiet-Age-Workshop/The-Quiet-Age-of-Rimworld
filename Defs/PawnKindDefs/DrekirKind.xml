@@ -17,7 +17,7 @@
     <defName>Drekir_Denver</defName>
     <label>denmate</label>
     <race>DrekirRace</race>
-    <defaultFactionType>DrekirNPCFactionBase</defaultFactionType>
+    <defaultFactionType>DrekirClan</defaultFactionType>
     <maxGenerationAge>120</maxGenerationAge>
     <chemicalAddictionChance>0.05</chemicalAddictionChance>
     <invNutrition>2.55</invNutrition>

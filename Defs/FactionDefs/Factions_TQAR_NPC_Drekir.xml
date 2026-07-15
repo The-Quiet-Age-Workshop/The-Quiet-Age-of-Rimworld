@@ -211,6 +211,7 @@
     </disallowedMemes>
     <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
     <configurationListOrderPriority>30</configurationListOrderPriority>
+    <factionIconPath>World/WorldObjects/Expanding/DrekirClan</factionIconPath>
   </FactionDef>
 
   <FactionDef ParentName="DrekirNPCFactionBase" Name="DrekirRoughBase" Abstract="True">
@@ -225,6 +226,7 @@
       <li>(0.03, 0.47, 0.16)</li>
       <li>(0.49, 0.96, 0.51)</li>
     </colorSpectrum>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
     <configurationListOrderPriority>40</configurationListOrderPriority>
   </FactionDef>
 
