@@ -192,20 +192,9 @@
       </li>
     </pawnGroupMakers>
     <settlementTexturePath>World/WorldObjects/Expanding/DrekirClan</settlementTexturePath>
-    <colorSpectrum>
-      <li>(0.85, 0.75, 0.37)</li>
-      <li>(0.94, 0.61, 0.06)</li>
-    </colorSpectrum>
-    <disallowedMemes>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
-    </disallowedMemes>
   </FactionDef>
 
-  <FactionDef ParentName="TribeBase">
+  <FactionDef ParentName="DrekirNPCFactionBase">
     <defName>DrekirClan</defName>
     <label>drekir clan</label>
     <description>These drekir have been here a very long time. Maybe their ancestors were born here a thousand years ago. Maybe they survived some cataclysm that destroyed a technological civilization here. In any case, the drekir are mostly nomadic people who live off the land using primitive tools and weapons.\n\nDespite their apparent technological weakness, the drekir can be dangerous enemies and valuable friends because of their skill with low-tech warfare, their numbers, and their hardiness.\n\nThis particular clan pursues a gentle way of life where they can. They are quite open to trade and alliances, even with strange peoples.</description>
