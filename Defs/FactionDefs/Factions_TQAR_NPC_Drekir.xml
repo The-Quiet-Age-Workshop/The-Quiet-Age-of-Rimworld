@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef ParentName="FactionBase" Name="DrekirNPCFactionBase" Abstract="True">
+    <defName>DrekirNPCFactionBase</defName>
+    <pawnSingular>denmate</pawnSingular>
+    <pawnsPlural>denmates</pawnsPlural>
+    <categoryTag>Tribal</categoryTag>
+    <listOrderPriority>20</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canStageAttacks>true</canStageAttacks>
+    <factionIconPath>World/WorldObjects/Expanding/Village</factionIconPath>
+    <techLevel>Neolithic</techLevel>
+    <factionNameMaker>NamerFactionTribal</factionNameMaker>
+    <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+    <allowedCultures><li>Corunan</li></allowedCultures>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+    </disallowedMemes>
+    <disallowedPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_CoveringAnythingButGroinDisapproved</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
+    </disallowedPrecepts>
+    <structureMemeWeights>
+      <Structure_Animist MayRequire="Ludeon.RimWorld.Ideology">4</Structure_Animist>
+      <Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">3</Structure_TheistEmbodied>
+      <Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">3</Structure_TheistAbstract>
+      <Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Archist>
+      <Structure_OriginChristian MayRequire="Ludeon.RimWorld.Ideology">2</Structure_OriginChristian>
+      <Structure_OriginIslamic MayRequire="Ludeon.RimWorld.Ideology">2</Structure_OriginIslamic>
+      <Structure_OriginHindu MayRequire="Ludeon.RimWorld.Ideology">2</Structure_OriginHindu>
+      <Structure_OriginBuddhist MayRequire="Ludeon.RimWorld.Ideology">2</Structure_OriginBuddhist>
+    </structureMemeWeights>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>TQAQ_Drekir</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <leaderTitle>clan leader</leaderTitle>
+    <caravanTraderKinds>
+      <li>Caravan_Neolithic_BulkGoods</li>
+      <li>Caravan_Neolithic_WarMerchant</li>
+      <li>Caravan_Neolithic_Slaver</li>
+      <li>Caravan_Neolithic_ShamanMerchant</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Neolithic_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Neolithic_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+    <raidCommonalityFromPointsCurve>
+      <points>
+        <li>(0, 1)</li> <!--Constant 1 at all points levels-->
+      </points>
+    </raidCommonalityFromPointsCurve>
+    <raidLootMaker>TribeRaidLootMaker</raidLootMaker>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(800, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <!-- Normal fights, ranged with melee mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <Drekir_Recruit>15</Drekir_Recruit>
+          <Drekir_Warbander>10</Drekir_Warbander>
+          <Drekir_Warbander_Ranged>10</Drekir_Warbander_Ranged>
+          <Drekir_Hunter>10</Drekir_Hunter>
+          <Drekir_WarbandLeader_Ranged>3</Drekir_WarbandLeader_Ranged>
+          <Drekir_WarbandLeader_Melee>1.5</Drekir_WarbandLeader_Melee>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, ranged only -->
+        <kindDef>Combat</kindDef>
+        <commonality>60</commonality>
+        <options>
+          <Drekir_Warbander_Ranged>20</Drekir_Warbander_Ranged>
+          <Drekir_Hunter>10</Drekir_Hunter>
+          <Drekir_WarbandLeader_Ranged>5</Drekir_WarbandLeader_Ranged>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, melee only -->
+        <kindDef>Combat</kindDef>
+        <commonality>60</commonality>
+        <options>
+          <Drekir_Recruit>10</Drekir_Recruit>
+          <Drekir_Warbander>20</Drekir_Warbander>
+          <Drekir_WarbandLeader_Melee>5</Drekir_WarbandLeader_Melee>
+      </options>
+      </li>
+      <li>
+        <!-- breach-capable fights, breachers plus ranged with melee mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>5</commonality>
+        <options>
+          <Drekir_Breacher>5</Drekir_Breacher>
+          <Drekir_Recruit>5</Drekir_Recruit>
+          <Drekir_Warbander>10</Drekir_Warbander>
+          <Drekir_Warbander_Ranged>20</Drekir_Warbander_Ranged>
+          <Drekir_Hunter>10</Drekir_Hunter>
+          <Drekir_WarbandLeader_Ranged>3</Drekir_WarbandLeader_Ranged>
+          <Drekir_WarbandLeader_Melee>1.5</Drekir_WarbandLeader_Melee>
+      </options>
+      </li>
+      <li>
+        <!-- Peaceful -->
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <Drekir_Warbander>25</Drekir_Warbander>
+          <Drekir_Youngling MayRequire="Ludeon.RimWorld.Biotech">10</Drekir_Youngling>
+          <Drekir_Warbander_Ranged>20</Drekir_Warbander_Ranged>
+          <Drekir_Hunter>10</Drekir_Hunter>
+          <Drekir_WarbandLeader_Ranged>3</Drekir_WarbandLeader_Ranged>
+          <Drekir_WarbandLeader_Melee>1.5</Drekir_WarbandLeader_Melee>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <Drekir_Trader>1</Drekir_Trader>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2.5</Alpaca>
+          <Elephant>2</Elephant>
+        </carriers>
+        <guards>
+          <Drekir_Warbander>14</Drekir_Warbander>
+          <Drekir_Warbander_Ranged>20</Drekir_Warbander_Ranged>
+          <Drekir_Hunter>10</Drekir_Hunter>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <Drekir_Warbander>14</Drekir_Warbander>
+          <Drekir_Warbander_Ranged>20</Drekir_Warbander_Ranged>
+          <Drekir_Hunter>10</Drekir_Hunter>
+          <Drekir_WarbandLeader_Ranged>10</Drekir_WarbandLeader_Ranged>
+        </options>
+      </li>
+      <li>
+        <kindDef>Settlement_RangedOnly</kindDef>
+        <options>
+          <Drekir_Warbander_Ranged>20</Drekir_Warbander_Ranged>
+          <Drekir_Hunter>10</Drekir_Hunter>
+          <Drekir_WarbandLeader_Ranged>10</Drekir_WarbandLeader_Ranged>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <Drekir_Miner>1</Drekir_Miner>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <Drekir_Hunter>1</Drekir_Hunter>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <Drekir_Logger>1</Drekir_Logger>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <Drekir_Farmer>1</Drekir_Farmer>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>World/WorldObjects/Expanding/DrekirClan</settlementTexturePath>
+    <colorSpectrum>
+      <li>(0.85, 0.75, 0.37)</li>
+      <li>(0.94, 0.61, 0.06)</li>
+    </colorSpectrum>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+    </disallowedMemes>
+  </FactionDef>
+
+  <FactionDef ParentName="TribeBase">
+    <defName>DrekirClan</defName>
+    <label>drekir clan</label>
+    <description>These drekir have been here a very long time. Maybe their ancestors were born here a thousand years ago. Maybe they survived some cataclysm that destroyed a technological civilization here. In any case, the drekir are mostly nomadic people who live off the land using primitive tools and weapons.\n\nDespite their apparent technological weakness, the drekir can be dangerous enemies and valuable friends because of their skill with low-tech warfare, their numbers, and their hardiness.\n\nThis particular clan pursues a gentle way of life where they can. They are quite open to trade and alliances, even with strange peoples.</description>
+    <colorSpectrum>
+      <li>(0.85, 0.75, 0.37)</li>
+      <li>(0.94, 0.61, 0.06)</li>
+    </colorSpectrum>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+    </disallowedMemes>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>30</configurationListOrderPriority>
+  </FactionDef>
+
+  <FactionDef ParentName="DrekirNPCFactionBase" Name="DrekirRoughBase" Abstract="True">
+    <naturalEnemy>true</naturalEnemy>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+    </disallowedMemes>
+    <colorSpectrum>
+      <li>(0.03, 0.47, 0.16)</li>
+      <li>(0.49, 0.96, 0.51)</li>
+    </colorSpectrum>
+    <configurationListOrderPriority>40</configurationListOrderPriority>
+  </FactionDef>
+
+  <FactionDef ParentName="DrekirRoughBase">
+    <defName>DrekirRough</defName>
+    <label>drekir gang</label>
+    <description>These drekir have been here a very long time. Maybe their ancestors were born here a thousand years ago. Maybe they survived some cataclysm that destroyed a technological civilization here. In any case, the drekir are mostly nomadic people who live off the land using primitive tools and weapons.\n\nDespite their apparent technological weakness, the drekir can be dangerous enemies and valuable friends because of their skill with low-tech warfare, their numbers, and their hardiness.\n\nThis particular gang values warlike dominance; it may be difficult to turn them into an ally.</description>
+    <factionIconPath>World/WorldObjects/Expanding/DrekirGang</factionIconPath>
+  </FactionDef>
+
+</Defs>
