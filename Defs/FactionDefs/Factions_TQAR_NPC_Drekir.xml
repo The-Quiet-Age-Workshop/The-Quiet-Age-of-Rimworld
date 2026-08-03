@@ -15,6 +15,9 @@
     <factionNameMaker>NamerFactionTribal</factionNameMaker>
     <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
     <allowedCultures><li>Eldimor</li></allowedCultures>
+    <requiredMemes>
+      <li MayRequire="AvenskolProductions.RimTales.Core">RTC_Anarchism</li>
+    </requiredMemes>
     <disallowedMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
     </disallowedMemes>
@@ -23,10 +26,9 @@
       <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
     </disallowedPrecepts>
     <structureMemeWeights>
-      <Structure_Animist MayRequire="Ludeon.RimWorld.Ideology">4</Structure_Animist>
+      <Structure_Animist MayRequire="Ludeon.RimWorld.Ideology">5</Structure_Animist>
       <Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">3</Structure_TheistEmbodied>
       <Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">3</Structure_TheistAbstract>
-      <Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Archist>
       <Structure_OriginChristian MayRequire="Ludeon.RimWorld.Ideology">2</Structure_OriginChristian>
       <Structure_OriginIslamic MayRequire="Ludeon.RimWorld.Ideology">2</Structure_OriginIslamic>
       <Structure_OriginHindu MayRequire="Ludeon.RimWorld.Ideology">2</Structure_OriginHindu>
