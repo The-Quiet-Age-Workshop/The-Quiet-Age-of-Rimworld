@@ -4,8 +4,8 @@
 
   <BodyTypeDef>
     <defName>TQAR_Drek_Body</defName>
-    <bodyNakedGraphicPath>Blank/blank</bodyNakedGraphicPath>
-    <bodyDessicatedGraphicPath>Blank/blank</bodyDessicatedGraphicPath>
+    <bodyNakedGraphicPath>Things/Pawn/Humanlike/Bodies/Drek_Body</bodyNakedGraphicPath>
+    <bodyDessicatedGraphicPath>Things/Pawn/Humanlike/Bodies/Drek_Body</bodyDessicatedGraphicPath>
     <bodyGraphicScale>(1, 0.9)</bodyGraphicScale>
     <woundAnchors>
       <li>

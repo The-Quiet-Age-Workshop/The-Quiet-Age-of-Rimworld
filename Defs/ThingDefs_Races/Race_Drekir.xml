@@ -97,7 +97,7 @@
 								</Posture>
 							</conditions>
 							<extendedGraphics>
-								<HeadType For="TQAR_Drek_Head">Things/Pawn/Drekir/Parts/Heads/Drek_Head</HeadType>
+								<HeadType For="TQAR_Drek_Head">Things/Pawn/Humanlike/Heads/Drek_Head</HeadType>
 							</extendedGraphics>
 							<offsets>
 								<south>
@@ -127,7 +127,7 @@
 								</Posture>
 							</conditions>
 							<extendedGraphics>
-								<BodyType For="TQAR_Drek_Body">Things/Pawn/Drekir/Parts/Bodies/Drek_Body</BodyType>
+								<BodyType For="TQAR_Drek_Body">Things/Pawn/Humanlike/Bodies/Drek_Body</BodyType>
 							</extendedGraphics>
 							<offsets>
 								<south>
