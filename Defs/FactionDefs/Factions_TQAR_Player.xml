@@ -13,7 +13,7 @@
     <factionNameMaker>NamerFactionTribal</factionNameMaker>
     <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
     <allowedCultures>
-      <li>Corunan</li>
+      <li>Eldimor</li>
     </allowedCultures>
     <disallowedMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>

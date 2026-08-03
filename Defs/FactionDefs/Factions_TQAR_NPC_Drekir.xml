@@ -14,7 +14,7 @@
     <techLevel>Neolithic</techLevel>
     <factionNameMaker>NamerFactionTribal</factionNameMaker>
     <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
-    <allowedCultures><li>Corunan</li></allowedCultures>
+    <allowedCultures><li>Eldimor</li></allowedCultures>
     <disallowedMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
     </disallowedMemes>
