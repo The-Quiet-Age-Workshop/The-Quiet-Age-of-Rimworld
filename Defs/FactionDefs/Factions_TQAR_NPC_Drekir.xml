@@ -26,7 +26,8 @@
       <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
     </disallowedPrecepts>
     <structureMemeWeights>
-      <Structure_Animist MayRequire="Ludeon.RimWorld.Ideology">4</Structure_Animist>
+      <StructureBalarLesavira>4</StructureBalarLesavira>
+      <StructureBalarSholresa>4</StructureBalarSholresa>
       <Structure_OriginChristian MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginChristian>
       <Structure_OriginIslamic MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginIslamic>
       <Structure_OriginHindu MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginHindu>

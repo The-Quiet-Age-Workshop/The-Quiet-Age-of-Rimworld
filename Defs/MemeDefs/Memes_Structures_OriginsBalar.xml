@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <MemeDef Name="StructureBalarBase" Abstract="True">
+    <category>Structure</category>
+    <impact>0</impact>
+  </MemeDef>
+
+ <MemeDef ParentName="StructureBalarBase">
+    <defName>StructureBalarLesavira</defName>
+    <label>Lesavira</label>
+    <description>Being a very passive Bal, Lesavira wouldn't interact much in the time between The Pulse and Awakening, preferring to stay away from the burial of Godomer and the "affairs of wounded gods".</description>
+    <iconPath>UI/Structures/OriginIslamic</iconPath>
+    <deityCount>1</deityCount>
+    <deityNameMakerOverride>NamerDeityLesavira</deityNameMakerOverride>
+    <deityTypeMakerOverride>DietyTypeMakerLesavira</deityTypeMakerOverride>
+    <allowSymbolsFromDeity>false</allowSymbolsFromDeity>
+    <symbolPackOverride>true</symbolPackOverride>
+    <worshipRoomLabel>mosque</worshipRoomLabel>
+    <groupDef>Theist_Embodied</groupDef>
+    <requireAnyRitualSeat><li>KneelSheet</li></requireAnyRitualSeat>
+    <generalRules>
+      <rulesStrings>
+        <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
+        <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
+        <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
+        <li>r_ideoName(p=99)->[packIdeoName]</li>
+        <li>memeLeaderNoun->mullah</li>
+        <li>memeLeaderNoun->imam</li>
+        <li>memeLeaderNoun->caliph</li>
+        <li>memeLeaderNoun->mufti</li>
+        <li>memeLeaderNoun->almami</li>
+        <li>memeLeaderNoun->kyai</li>
+        <li>memeLeaderNoun->ayatollah</li>
+        <li>memeLeaderAdjective->grand</li>
+        <li>memeMoralist(p=4)->imam</li>
+        <li>memeMoralist->qadi</li>
+        <li>memeMoralist->alim</li>
+        <li>memeMoralist->allamah</li>
+        <li>memeMoralist->muezzin</li>
+        <li>memeMoralist->mujtahid</li>
+      </rulesStrings>
+    </generalRules>
+   <descriptionMaker>
+     <patterns>
+       <li><def>TheistFounder</def></li>
+     </patterns>
+     <constants>
+       <li><key>structure_theist</key><value>true</value></li>
+     </constants>
+   </descriptionMaker>
+    <symbolPacks>
+      <li><ideoName>The Djinists</ideoName><adjective>Djinism</adjective><member>Djinist</member><prefix>true</prefix></li>
+    </symbolPacks>
+    <thingStyleCategories>
+      <li>
+        <category>Islamic</category>
+        <priority>4</priority>
+      </li>
+    </thingStyleCategories>
+    <styleItemTags>
+      <li>
+        <tag>NoBeard</tag>
+        <weightFactor>0.1</weightFactor>
+      </li>
+    </styleItemTags>
+  </MemeDef>
+
+  <RulePackDef>
+    <defName>NamerDeityLesavira</defName>
+    <include>
+      <li>GlobalUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_deityName->Lesavira</li>
+        <li>r_deityName->The Eerie Erie</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>DietyTypeMakerLesavira</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_deityType->Protector of The Djinists</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+ <MemeDef ParentName="StructureBalarBase">
+    <defName>StructureBalarSholresa</defName>
+    <label>Sholresa</label>
+    <description>As all Balar are, the story of Sholresa begins upon the Great Sundering of Jarsta, as it and many others were ripped from the fold they called home and forced to build new bodies to exist within their new realities so too did Sholresa. The Bal was mangled by the force of Jarsta, it's very being unbraided like a rope unwound, so in the early years of the century between the Pulse and the Awakening it would hide.</description>
+    <iconPath>UI/Structures/OriginChristian</iconPath>
+    <deityCount>1</deityCount>
+    <deityNameMakerOverride>NamerDeitySholresa</deityNameMakerOverride>
+    <deityTypeMakerOverride>DietyTypeMakerSholresa</deityTypeMakerOverride>
+    <allowSymbolsFromDeity>false</allowSymbolsFromDeity>
+    <symbolPackOverride>true</symbolPackOverride>
+    <worshipRoomLabel>church</worshipRoomLabel>
+    <groupDef>Theist_Embodied</groupDef>
+    <consumableBuildings>
+      <li>IncenseShrine</li>
+    </consumableBuildings>
+    <generalRules>
+      <rulesStrings>
+        <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
+        <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
+        <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
+        <li>r_ideoName(p=99)->[packIdeoName]</li>
+        <li>memeLeaderNoun->leader</li>
+        <li>memeLeaderAdjective->Dragon'v Paradise</li>
+        <li>memeMoralist->priest</li>
+      </rulesStrings>
+    </generalRules>
+   <descriptionMaker>
+     <patterns>
+       <li><def>TheistFounder</def></li>
+     </patterns>
+     <constants>
+       <li><key>structure_theist</key><value>true</value></li>
+     </constants>
+   </descriptionMaker>
+   <symbolPacks>
+      <li><ideoName>The Dragons'v Paradise</ideoName><adjective>Paradise</adjective><member>Dragon'v Paradise</member><prefix>true</prefix></li>
+    </symbolPacks>
+    <thingStyleCategories>
+      <li>
+        <category>Christian</category>
+        <priority>4</priority>
+      </li>
+    </thingStyleCategories>
+  </MemeDef>
+
+  <RulePackDef>
+    <defName>NamerDeitySholresa</defName>
+    <include>
+      <li>GlobalUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_deityName->Sholresa</li>
+        <li>r_deityName->Dragon'v Paradise</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>DietyTypeMakerSholresa</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_deityType->Keeper of [info]</li>
+        <li>r_deityType->Thief of [info]</li>
+        <li>info->information</li>
+        <li>info->knowledge</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>
