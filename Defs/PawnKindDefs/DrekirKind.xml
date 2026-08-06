@@ -3,13 +3,16 @@
 
     <!--Player-->
 
-    <PawnKindDef ParentName="BasePlayerPawnKind">
-        <defName>DrekirKind</defName>
-        <label>denmate</label>
-        <race>DrekirRace</race>
-        <defaultFactionType>PlayerDenDrekir</defaultFactionType>
-        <initialResistanceRange>13~21</initialResistanceRange>
-    </PawnKindDef>
+  <PawnKindDef ParentName="BasePlayerPawnKind">
+    <defName>DrekirKind</defName>
+    <label>denmate</label>
+    <race>DrekirRace</race>
+    <defaultFactionType>PlayerDenDrekir</defaultFactionType>
+    <initialResistanceRange>13~21</initialResistanceRange>
+    <apparelTags>
+      <li>drekirclothesclan</li>
+    </apparelTags>
+  </PawnKindDef>
 
     <!--NPC-->
 
@@ -22,6 +25,9 @@
     <chemicalAddictionChance>0.05</chemicalAddictionChance>
     <invNutrition>2.55</invNutrition>
     <invFoodDef>Pemmican</invFoodDef>
+    <apparelTags>
+      <li>drekirclothesclan</li>
+    </apparelTags>
   </PawnKindDef>
 
   <!--Youngling-->
