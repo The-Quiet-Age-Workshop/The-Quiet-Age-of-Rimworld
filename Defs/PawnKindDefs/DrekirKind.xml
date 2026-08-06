@@ -9,6 +9,7 @@
     <race>DrekirRace</race>
     <defaultFactionType>PlayerDenDrekir</defaultFactionType>
     <initialResistanceRange>13~21</initialResistanceRange>
+    <apparelMoney>180~350</apparelMoney>
     <apparelTags>
       <li>drekirclothesclan</li>
     </apparelTags>
@@ -23,6 +24,7 @@
     <defaultFactionType>DrekirClan</defaultFactionType>
     <maxGenerationAge>120</maxGenerationAge>
     <chemicalAddictionChance>0.05</chemicalAddictionChance>
+    <apparelMoney>180~350</apparelMoney>
     <invNutrition>2.55</invNutrition>
     <invFoodDef>Pemmican</invFoodDef>
     <apparelTags>
@@ -38,7 +40,6 @@
     <combatPower>30</combatPower>
     <itemQuality>Poor</itemQuality>
     <gearHealthRange>0.5~1.8</gearHealthRange>
-    <apparelMoney>180~350</apparelMoney>
     <weaponMoney>0</weaponMoney>
     <weaponTags/>
     <techHediffsMoney>50~50</techHediffsMoney>

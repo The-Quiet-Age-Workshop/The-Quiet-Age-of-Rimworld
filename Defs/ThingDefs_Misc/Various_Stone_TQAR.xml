@@ -21,7 +21,7 @@
   <ThingDef ParentName="StalBase_TQAR">
     <defName>SmoothedStal_TQAR</defName>
     <label>smoothed stal</label>
-    <description>A archaic rock composed of sand particles compressed together. The stal layers have been polished to a flat, smooth surface.</description>
+    <description>A archaic rock composed of stal particles compressed together. The stal layers have been polished to a flat, smooth surface.</description>
     <uiIconPath>Things/Building/Linked/WallSmooth_MenuIcon</uiIconPath>
     <graphicData>
       <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
@@ -73,7 +73,7 @@
       <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
       <soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Stone</soundImpactMelee>
-      <stuffAdjective>sandstone</stuffAdjective>
+      <stuffAdjective>stal</stuffAdjective>
       <statFactors>
         <Beauty>1.1</Beauty>  
         <MaxHitPoints>1.4</MaxHitPoints>
