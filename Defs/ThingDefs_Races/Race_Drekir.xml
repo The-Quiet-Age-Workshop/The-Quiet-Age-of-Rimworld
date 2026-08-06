@@ -145,7 +145,21 @@
             <styleSettings></styleSettings>
             <thoughtSettings></thoughtSettings>
             <relationSettings></relationSettings>
-            <raceRestriction></raceRestriction>
+            <raceRestriction>
+				<apparelList>
+					<li>Apparel_ShieldBelt</li>
+					<li>Apparel_SmokepopBelt</li>
+					<li>Apparel_Burka</li>
+					<li>Apparel_Duster</li>
+					<li>Apparel_Parka</li>
+					<li>Apparel_Robe</li>
+					<li>Apparel_Sash</li>
+					<li>Apparel_BasicShirt</li>
+					<li>Apparel_CollarShirt</li>
+					<li>Apparel_ShirtRuffle</li>
+					<li>Apparel_TribalA</li>
+				</apparelList>
+			</raceRestriction>
             <compatibility></compatibility>
 			<styleSettings>
 				<li>
