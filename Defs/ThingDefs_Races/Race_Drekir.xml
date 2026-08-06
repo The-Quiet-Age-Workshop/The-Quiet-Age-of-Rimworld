@@ -144,7 +144,58 @@
             </generalSettings>
             <styleSettings></styleSettings>
             <thoughtSettings></thoughtSettings>
-            <relationSettings></relationSettings>
+            <relationSettings>
+				<relationChanceModifierChild>1</relationChanceModifierChild>
+				<relationChanceModifierExLover>1</relationChanceModifierExLover>
+				<relationChanceModifierExSpouse>1</relationChanceModifierExSpouse>
+				<relationChanceModifierFiance>1</relationChanceModifierFiance>
+				<relationChanceModifierLover>1</relationChanceModifierLover>
+				<relationChanceModifierParent>1</relationChanceModifierParent>
+				<relationChanceModifierSibling>1</relationChanceModifierSibling>
+				<relationChanceModifierSpouse>1</relationChanceModifierSpouse>
+				<renamer>
+					<li>
+						<relation>Child</relation>
+						<label>Child</label>
+						<femaleLabel>Child</femaleLabel>
+					</li>
+					<li>
+						<relation>ExLover</relation>
+						<label>Ex-Mate</label>
+						<femaleLabel>Ex-Mate</femaleLabel>
+					</li>
+					<li>
+						<relation>ExSpouse</relation>
+						<label>Ex-Mate</label>
+						<femaleLabel>Ex-Mate</femaleLabel>
+					</li>
+					<li>
+						<relation>Fiance</relation>
+						<label>Mate</label>
+						<femaleLabel>Mate</femaleLabel>
+					</li>
+					<li>
+						<relation>Lover</relation>
+						<label>Mate</label>
+						<femaleLabel>Mate</femaleLabel>
+					</li>
+					<li>
+						<relation>Parent</relation>
+						<label>Parent</label>
+						<femaleLabel>Parent</femaleLabel>
+					</li>
+					<li>
+						<relation>Sibling</relation>
+						<label>Sibling</label>
+						<femaleLabel>Sibling</femaleLabel>
+					</li>
+					<li>
+						<relation>Spouse</relation>
+						<label>Mate</label>
+						<femaleLabel>Mate</femaleLabel>
+					</li>
+			</renamer>
+			</relationSettings>
             <raceRestriction>
 				<whiteApparelList>
 					<li>Apparel_ShieldBelt</li>
