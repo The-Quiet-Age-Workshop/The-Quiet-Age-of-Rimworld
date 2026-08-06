@@ -146,7 +146,7 @@
             <thoughtSettings></thoughtSettings>
             <relationSettings></relationSettings>
             <raceRestriction>
-				<apparelList>
+				<whiteApparelList>
 					<li>Apparel_ShieldBelt</li>
 					<li>Apparel_SmokepopBelt</li>
 					<li>Apparel_Burka</li>
@@ -158,7 +158,8 @@
 					<li>Apparel_CollarShirt</li>
 					<li>Apparel_ShirtRuffle</li>
 					<li>Apparel_TribalA</li>
-				</apparelList>
+				</whiteApparelList>
+				<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
 			</raceRestriction>
             <compatibility></compatibility>
 			<styleSettings>
