@@ -83,7 +83,8 @@
         <options>
           <Drekir_Recruit>15</Drekir_Recruit>
           <Drekir_Warbander>10</Drekir_Warbander>
-          <Drekir_Warbander_Ranged>10</Drekir_Warbander_Ranged>
+          <Drekir_Warbander_Mana>5</Drekir_Warbander_Mana>
+          <Drekir_Warbander_Ranged>5</Drekir_Warbander_Ranged>
           <Drekir_Hunter>10</Drekir_Hunter>
           <Drekir_WarbandLeader_Ranged>3</Drekir_WarbandLeader_Ranged>
           <Drekir_WarbandLeader_Melee>1.5</Drekir_WarbandLeader_Melee>
@@ -94,7 +95,8 @@
         <kindDef>Combat</kindDef>
         <commonality>60</commonality>
         <options>
-          <Drekir_Warbander_Ranged>20</Drekir_Warbander_Ranged>
+          <Drekir_Warbander_Mana>10</Drekir_Warbander_Mana>
+          <Drekir_Warbander_Ranged>10</Drekir_Warbander_Ranged>
           <Drekir_Hunter>10</Drekir_Hunter>
           <Drekir_WarbandLeader_Ranged>5</Drekir_WarbandLeader_Ranged>
         </options>
@@ -117,7 +119,8 @@
           <Drekir_Breacher>5</Drekir_Breacher>
           <Drekir_Recruit>5</Drekir_Recruit>
           <Drekir_Warbander>10</Drekir_Warbander>
-          <Drekir_Warbander_Ranged>20</Drekir_Warbander_Ranged>
+          <Drekir_Warbander_Mana>10</Drekir_Warbander_Mana>
+          <Drekir_Warbander_Ranged>10</Drekir_Warbander_Ranged>
           <Drekir_Hunter>10</Drekir_Hunter>
           <Drekir_WarbandLeader_Ranged>3</Drekir_WarbandLeader_Ranged>
           <Drekir_WarbandLeader_Melee>1.5</Drekir_WarbandLeader_Melee>
@@ -129,7 +132,8 @@
         <options>
           <Drekir_Warbander>25</Drekir_Warbander>
           <Drekir_Youngling MayRequire="Ludeon.RimWorld.Biotech">10</Drekir_Youngling>
-          <Drekir_Warbander_Ranged>20</Drekir_Warbander_Ranged>
+          <Drekir_Warbander_Mana>10</Drekir_Warbander_Mana>
+          <Drekir_Warbander_Ranged>10</Drekir_Warbander_Ranged>
           <Drekir_Hunter>10</Drekir_Hunter>
           <Drekir_WarbandLeader_Ranged>3</Drekir_WarbandLeader_Ranged>
           <Drekir_WarbandLeader_Melee>1.5</Drekir_WarbandLeader_Melee>
@@ -148,7 +152,8 @@
         </carriers>
         <guards>
           <Drekir_Warbander>14</Drekir_Warbander>
-          <Drekir_Warbander_Ranged>20</Drekir_Warbander_Ranged>
+          <Drekir_Warbander_Mana>10</Drekir_Warbander_Mana>
+          <Drekir_Warbander_Ranged>10</Drekir_Warbander_Ranged>
           <Drekir_Hunter>10</Drekir_Hunter>
         </guards>
       </li>
@@ -156,7 +161,8 @@
         <kindDef>Settlement</kindDef>
         <options>
           <Drekir_Warbander>14</Drekir_Warbander>
-          <Drekir_Warbander_Ranged>20</Drekir_Warbander_Ranged>
+          <Drekir_Warbander_Mana>10</Drekir_Warbander_Mana>
+          <Drekir_Warbander_Ranged>10</Drekir_Warbander_Ranged>
           <Drekir_Hunter>10</Drekir_Hunter>
           <Drekir_WarbandLeader_Ranged>10</Drekir_WarbandLeader_Ranged>
         </options>
@@ -164,7 +170,8 @@
       <li>
         <kindDef>Settlement_RangedOnly</kindDef>
         <options>
-          <Drekir_Warbander_Ranged>20</Drekir_Warbander_Ranged>
+          <Drekir_Warbander_Mana>10</Drekir_Warbander_Mana>
+          <Drekir_Warbander_Ranged>10</Drekir_Warbander_Ranged>
           <Drekir_Hunter>10</Drekir_Hunter>
           <Drekir_WarbandLeader_Ranged>10</Drekir_WarbandLeader_Ranged>
         </options>
