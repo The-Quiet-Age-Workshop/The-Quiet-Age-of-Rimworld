@@ -52,8 +52,84 @@
     </statBases>
     <soundDrop>ChunkRock_Drop</soundDrop>
     <butcherProducts>
-      <Stalpowder>1</Stalpowder>
+      <BlocksStal_TQAR>20</BlocksStal_TQAR>
     </butcherProducts>
   </ThingDef>
+
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksStal_TQAR</defName>
+    <label>stal blocks</label>
+    <description>Blocks of solid stal. Stal is a relatively soft material and chips easily.</description>
+    <graphicData>
+      <color>(43,34,56)</color>
+    </graphicData>
+    <statBases>
+      <Mass>1</Mass>
+      <SharpDamageMultiplier>0.5</SharpDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <color>(43,34,56)</color>
+      <soundImpactBullet>BulletImpact_Ground</soundImpactBullet>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Stone</soundImpactMelee>
+      <stuffAdjective>sandstone</stuffAdjective>
+      <statFactors>
+        <Beauty>1.1</Beauty>  
+        <MaxHitPoints>1.4</MaxHitPoints>
+        <WorkToBuild>5.0</WorkToBuild>
+        <WorkToMake>1.1</WorkToMake>
+      </statFactors>
+      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+    </stuffProps>
+  </ThingDef>
+
+  <RecipeDef ParentName="MakeStoneBlocksBase">
+    <defName>Make_StoneBlocksStal_TQAR</defName>
+    <label>make stal blocks</label>
+    <description>Cuts stal chunks into usable blocks.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ChunkStal_TQAR</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ChunkStal_TQAR</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <BlocksStal_TQAR>20</BlocksStal_TQAR>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="MakeStoneBlocksBase">
+    <defName>Make_StalPowder</defName>
+    <label>make stal powder</label>
+    <description>Cuts stal chunks into usable powder.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ChunkStal_TQAR</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ChunkStal_TQAR</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Stalpowder>20</Stalpowder>
+    </products>
+  </RecipeDef>
 
 </Defs>
