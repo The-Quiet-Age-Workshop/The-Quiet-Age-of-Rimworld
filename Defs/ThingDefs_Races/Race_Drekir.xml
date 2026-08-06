@@ -160,6 +160,21 @@
 						<femaleLabel>Child</femaleLabel>
 					</li>
 					<li>
+						<relation>ChildInLaw</relation>
+						<label>Child</label>
+						<femaleLabel>Child</femaleLabel>
+					</li>
+					<li>
+						<relation>Cousin</relation>
+						<label>Sibling</label>
+						<femaleLabel>Sibling</femaleLabel>
+					</li>
+					<li>
+						<relation>CousinOnceRemoved</relation>
+						<label>Sibling</label>
+						<femaleLabel>Sibling</femaleLabel>
+					</li>
+					<li>
 						<relation>ExLover</relation>
 						<label>Ex-Mate</label>
 						<femaleLabel>Ex-Mate</femaleLabel>
@@ -175,14 +190,69 @@
 						<femaleLabel>Mate</femaleLabel>
 					</li>
 					<li>
+						<relation>Grandchild</relation>
+						<label>Child</label>
+						<femaleLabel>Child</femaleLabel>
+					</li>
+					<li>
+						<relation>Grandparent</relation>
+						<label>Parent</label>
+						<femaleLabel>Parent</femaleLabel>
+					</li>
+					<li>
+						<relation>GreatGrandchild</relation>
+						<label>Child</label>
+						<femaleLabel>Child</femaleLabel>
+					</li>
+					<li>
+						<relation>GreatGrandparent</relation>
+						<label>Parent</label>
+						<femaleLabel>Parent</femaleLabel>
+					</li>
+					<li>
+						<relation>GrandnephewOrGrandniece</relation>
+						<label>Child</label>
+						<femaleLabel>Child</femaleLabel>
+					</li>
+					<li>
+						<relation>GranduncleOrGrandaunt</relation>
+						<label>Parent</label>
+						<femaleLabel>Parent</femaleLabel>
+					</li>
+					<li>
+						<relation>HalfSibling</relation>
+						<label>Sibling</label>
+						<femaleLabel>Sibling</femaleLabel>
+					</li>
+					<li>
+						<relation>Kin</relation>
+						<label>Denmate</label>
+						<femaleLabel>Denmate</femaleLabel>
+					</li>
+					<li>
 						<relation>Lover</relation>
 						<label>Mate</label>
 						<femaleLabel>Mate</femaleLabel>
 					</li>
 					<li>
+						<relation>NephewOrNiece</relation>
+						<label>Child</label>
+						<femaleLabel>Child</femaleLabel>
+					</li>
+					<li>
 						<relation>Parent</relation>
 						<label>Parent</label>
 						<femaleLabel>Parent</femaleLabel>
+					</li>
+					<li>
+						<relation>ParentInLaw</relation>
+						<label>Parent</label>
+						<femaleLabel>Parent</femaleLabel>
+					</li>
+					<li>
+						<relation>SecondCousin</relation>
+						<label>Sibling</label>
+						<femaleLabel>Sibling</femaleLabel>
 					</li>
 					<li>
 						<relation>Sibling</relation>
@@ -193,6 +263,21 @@
 						<relation>Spouse</relation>
 						<label>Mate</label>
 						<femaleLabel>Mate</femaleLabel>
+					</li>
+					<li>
+						<relation>Stepchild</relation>
+						<label>Child</label>
+						<femaleLabel>Child</femaleLabel>
+					</li>
+					<li>
+						<relation>Stepparent</relation>
+						<label>Parent</label>
+						<femaleLabel>Parent</femaleLabel>
+					</li>
+					<li>
+						<relation>UncleOrAunt</relation>
+						<label>Parent</label>
+						<femaleLabel>Parent</femaleLabel>
 					</li>
 			</renamer>
 			</relationSettings>
