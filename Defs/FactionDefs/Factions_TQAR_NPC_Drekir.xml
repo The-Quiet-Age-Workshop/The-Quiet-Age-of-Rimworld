@@ -33,10 +33,12 @@
       <Structure_OriginHindu MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginHindu>
       <Structure_OriginBuddhist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginBuddhist>
     </structureMemeWeights>
-    <xenotypeChances>
-      <RTC_Conduit MayRequire="AvenskolProductions.RimTales.Core">0.25</RTC_Conduit>
-      <RTC_Mana_Infused MayRequire="AvenskolProductions.RimTales.Core">0.125</RTC_Mana_Infused>
-    </xenotypeChances>
+    <xenotypeSet>
+      <xenotypeChances>
+        <RTC_Conduit MayRequire="AvenskolProductions.RimTales.Core">0.25</RTC_Conduit>
+        <RTC_Mana_Infused MayRequire="AvenskolProductions.RimTales.Core">0.125</RTC_Mana_Infused>
+      </xenotypeChances>
+    </xenotypeSet>
     <backstoryFilters>
       <li>
         <categories>
