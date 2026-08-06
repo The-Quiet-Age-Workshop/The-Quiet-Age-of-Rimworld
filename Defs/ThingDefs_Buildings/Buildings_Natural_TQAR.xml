@@ -2,7 +2,7 @@
 <Defs>
 
   <ThingDef ParentName="RockBase">
-    <defName>MineableStal</defName>
+    <defName>Steiron</defName>
     <label>steiron</label>
     <description>The remains of some archaic stone. Rich in unrefined Stal.</description>
     <graphicData>
@@ -10,17 +10,17 @@
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <color>(114,92,83)</color>
-      <colorTwo>(255,0,200)</colorTwo>
+      <colorTwo>(0,200,255)</colorTwo>
     </graphicData>
     <statBases>
-      <MaxHitPoints>1500</MaxHitPoints>
+      <MaxHitPoints>3000</MaxHitPoints>
     </statBases>
     <building>
       <isResourceRock>true</isResourceRock>
-      <mineableThing>RefinedStal</mineableThing>
-      <mineableYield>25</mineableYield>
-      <mineableScatterCommonality>1</mineableScatterCommonality>
-      <mineableScatterLumpSizeRange>30~40</mineableScatterLumpSizeRange>
+      <mineableThing>ChunkStal_TQAR</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+      <mineableDropChance>1.0</mineableDropChance>
+      <mineableScatterLumpSizeRange>3~6</mineableScatterLumpSizeRange>
       <veinMineable>true</veinMineable>
     </building>
   </ThingDef>

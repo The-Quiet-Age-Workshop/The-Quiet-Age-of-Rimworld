@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="UglyRockBase" Name="StalBase_TQAR">
+    <defName>Stal_TQAR</defName>
+    <label>stal</label>
+    <description>A archaic rock composed of stal particles compressed together.</description>
+    <graphicData>
+      <color>(255,0,200)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <building>
+      <mineableThing>ChunkStal_TQAR</mineableThing>
+      <mineableDropChance>0.75</mineableDropChance>
+      <smoothedThing>SmoothedStal_TQAR</smoothedThing>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="StalBase_TQAR">
+    <defName>SmoothedStal_TQAR</defName>
+    <label>smoothed stal</label>
+    <description>A archaic rock composed of sand particles compressed together. The stal layers have been polished to a flat, smooth surface.</description>
+    <uiIconPath>Things/Building/Linked/WallSmooth_MenuIcon</uiIconPath>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+    </graphicData>
+    <statBases>
+      <Beauty>1</Beauty>
+      <MarketValue>7</MarketValue>
+    </statBases>
+    <building>
+      <isNaturalRock>false</isNaturalRock>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+      <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+      <paintable>true</paintable>
+      <smoothedThing />
+    </building>
+    <saveCompressible>false</saveCompressible>
+    <repairEffect>Repair</repairEffect>
+  </ThingDef>
+
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>ChunkStal_TQAR</defName>
+    <label>stal chunk</label>
+    <graphicData>
+      <color>(255,0,200)</color>
+    </graphicData>
+    <statBases>
+      <Mass>10</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+  </ThingDef>
+
+</Defs>
