@@ -6,7 +6,7 @@
     <label>stal</label>
     <description>A archaic rock composed of stal particles compressed together.</description>
     <graphicData>
-      <color>(255,0,200)</color>
+      <color>(43,34,56)</color>
     </graphicData>
     <statBases>
       <MaxHitPoints>1500</MaxHitPoints>
@@ -45,12 +45,15 @@
     <defName>ChunkStal_TQAR</defName>
     <label>stal chunk</label>
     <graphicData>
-      <color>(255,0,200)</color>
+      <color>(43,34,56)</color>
     </graphicData>
     <statBases>
       <Mass>10</Mass>
     </statBases>
     <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <Stalpowder>1</Stalpowder>
+    </butcherProducts>
   </ThingDef>
 
 </Defs>
