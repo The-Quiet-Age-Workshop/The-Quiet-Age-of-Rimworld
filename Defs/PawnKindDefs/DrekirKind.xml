@@ -155,6 +155,7 @@
     <weaponMoney>80~80</weaponMoney>
     <weaponTags>
       <li>NeolithicRangedBasic</li>
+      <li>GrenadeMana</li>
     </weaponTags>
     <disallowedTraits>
       <li>Brawler</li>
@@ -274,6 +275,7 @@
     <label>warband leader</label>
     <weaponTags>
       <li>NeolithicRangedChief</li>
+      <li>GrenadeMana</li>
     </weaponTags>
     <disallowedTraits>
       <li>Brawler</li>
