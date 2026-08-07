@@ -1,0 +1,151 @@
+<Defs>
+
+    <RecipeDef Name="TQAR_MetalSmithing" Abstract="True">
+        <unfinishedThingDef>EM_UnfinishedAlloy</unfinishedThingDef>
+        <effectWorking>Cremate</effectWorking>
+        <soundWorking>Recipe_Cremate</soundWorking>
+        <workSpeedStat>SmeltingSpeed</workSpeedStat>
+        <recipeUsers>
+            <li>EM_FueledAlloyFurnace</li>
+            <li>EM_ElectricAlloyFurnace</li>
+            <li>FueledSmithy</li>
+            <li>ElectricSmithy</li>
+        </recipeUsers>
+        <researchPrerequisite>Smithing</researchPrerequisite> <!-- EM Alloy research project -->
+    </RecipeDef>
+
+    <!--Yaetilithics-->
+
+    <RecipeDef ParentName="TQAR_MetalSmithing">
+        <defName>MakeYaetil</defName>
+        <label>make raw yaetil</label>
+        <description>Make raw yaetil from metals and carbon</description>
+        <jobString>Make raw yaetil.</jobString>
+        <workAmount>3100</workAmount> <!-- Placeholder -->
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>EM_Copper</li>
+                        <li>EM_Iron</li>
+                        <li>EM_Lead</li>
+                        <li>EM_Tin</li>
+                    </thingDefs>
+                </filter>
+                <count>17</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>EM_Coal</li>
+                        <li>EM_Charcoal</li>
+                    </thingDefs>
+                </filter>
+                <count>10</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>EM_Copper</li>
+                <li>EM_Iron</li>
+                <li>EM_Lead</li>
+                <li>EM_Tin</li>
+                <li>EM_Coal</li>
+                <li>EM_Charcoal</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <Yaetil>22</Yaetil>
+        </products>
+        <researchPrerequisite>Smithing</researchPrerequisite>
+    </RecipeDef>
+
+    <RecipeDef ParentName="TQAR_MetalSmithing">
+        <defName>MakeYaetil_Forged</defName>
+        <label>make forged yaetil</label>
+        <description>Make forged yaetil from metals and carbon</description>
+        <jobString>Make forged yaetil.</jobString>
+        <workAmount>3100</workAmount> <!-- Placeholder -->
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>EM_Copper</li>
+                        <li>EM_Iron</li>
+                        <li>EM_Lead</li>
+                        <li>EM_Tin</li>
+                    </thingDefs>
+                </filter>
+                <count>34</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>EM_Coal</li>
+                        <li>EM_Charcoal</li>
+                    </thingDefs>
+                </filter>
+                <count>20</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>EM_Copper</li>
+                <li>EM_Iron</li>
+                <li>EM_Lead</li>
+                <li>EM_Tin</li>
+                <li>EM_Coal</li>
+                <li>EM_Charcoal</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <Yaetil_Forged>44</Yaetil_Forged>
+        </products>
+        <researchPrerequisite>Smithing</researchPrerequisite>
+    </RecipeDef>
+
+    <RecipeDef ParentName="TQAR_MetalSmithing">
+        <defName>MakeYaetil_Smelted</defName>
+        <label>make smelted yaetil</label>
+        <description>Make smelted yaetil from metals and carbon</description>
+        <jobString>Make smelted yaetil.</jobString>
+        <workAmount>3100</workAmount> <!-- Placeholder -->
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>EM_Copper</li>
+                        <li>EM_Iron</li>
+                        <li>EM_Lead</li>
+                        <li>EM_Tin</li>
+                    </thingDefs>
+                </filter>
+                <count>68</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>EM_Coal</li>
+                        <li>EM_Charcoal</li>
+                    </thingDefs>
+                </filter>
+                <count>40</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>EM_Copper</li>
+                <li>EM_Iron</li>
+                <li>EM_Lead</li>
+                <li>EM_Tin</li>
+                <li>EM_Coal</li>
+                <li>EM_Charcoal</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <Yaetil_Smelted>88</Yaetil_Smelted>
+        </products>
+        <researchPrerequisite>Smithing</researchPrerequisite>
+    </RecipeDef>
+
+</Defs>

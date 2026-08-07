@@ -77,4 +77,164 @@
     <allowedArchonexusCount>80</allowedArchonexusCount>
   </ThingDef>
 
+  <ThingDef ParentName="ResourceBase">
+    <defName>Yaetil</defName>
+    <label>raw yaetil</label>
+    <description>A basic form of yaetilithic metal that has been artificially produced directly from the initial refining process without any further work done in refining it or removing impurities. This quality of Yaetil is similar in properties to copper with regards to its hardness and malleability, making it easy to cold hammer into a variety of shapes and forms, while also being sharp enough to be usable for cutting and chopping tools. That said, the impurities within the metal can cause pieces to break unpredictably, and also unlike copper it has a more "woodgrain" like structure as the yaetil formed around the impurities, often creating strands and ripple patterns of mineral impurities within the metal.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Yaetil</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <statBases>
+      <MarketValue>1.4</MarketValue>
+      <Mass>0.5</Mass>
+      <StuffPower_Armor_Sharp>0.85</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.4</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.6</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <BluntDamageMultiplier>1</BluntDamageMultiplier>
+      <SharpDamageMultiplier>1</SharpDamageMultiplier>
+    </statBases>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <deepCommonality>1</deepCommonality>
+    <deepCountPerPortion>10</deepCountPerPortion>
+    <deepLumpSizeRange>10~15</deepLumpSizeRange>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <commonality>1.00</commonality>
+      <constructEffect>ConstructMetal</constructEffect>
+      <isAirtight>true</isAirtight>
+      <color>(143, 0, 123)</color>
+      <soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Metal</soundImpactMelee>
+      <statFactors>
+        <MaxHitPoints>1</MaxHitPoints>
+        <Beauty>1</Beauty>
+        <Flammability>0</Flammability>
+      </statFactors>
+    </stuffProps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>Yaetil_Forged</defName>
+    <label>forged yaetil</label>
+    <description>A variant of yaetil that has been heated at least to 350 degrees Celsius and hammered. This hammering process, much like hammering a wrought iron bloom, can help eject impurities from the metal and homogenize the metal into a more solid, pure form. This, in turn, makes the metal harder, often being more comparable to a low quality wrought iron, being harder than copper though still not a terribly hard metal.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Yaetil</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <statBases>
+      <MarketValue>1.9</MarketValue>
+      <Mass>0.5</Mass>
+      <StuffPower_Armor_Sharp>0.88</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.42</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.6</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <BluntDamageMultiplier>0.98</BluntDamageMultiplier>
+      <SharpDamageMultiplier>0.98</SharpDamageMultiplier>
+    </statBases>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <commonality>1.00</commonality>
+      <constructEffect>ConstructMetal</constructEffect>
+      <isAirtight>true</isAirtight>
+      <color>(143, 0, 123)</color>
+      <soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Metal</soundImpactMelee>
+      <statFactors>
+        <MaxHitPoints>1</MaxHitPoints>
+        <Beauty>1</Beauty>
+        <Flammability>0</Flammability>
+        <WorkToBuild>1.08</WorkToBuild>
+        <WorkToMake>1.12</WorkToMake>
+      </statFactors>
+    </stuffProps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>Yaetil_Smelted</defName>
+    <label>smelted yaetil</label>
+    <description>A variant of yaetil that has been melted at 500 degrees Celsius in a crucible, melting it. While melted in a crucible most of the impurities within the original metal will float to the surface and can be simply removed before pouring the molten metal into a mold. Smelted yaetil is the highest quality yaetil thanks to it often having no impurities remaining within it, often being comparable to a high quality tin bronze in hardness.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Yaetil</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <statBases>
+      <MarketValue>1.6</MarketValue>
+      <Mass>0.5</Mass>
+      <Beauty>-2</Beauty>
+      <StuffPower_Armor_Sharp>0.8</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.4</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.55</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <BluntDamageMultiplier>0.92</BluntDamageMultiplier>
+      <SharpDamageMultiplier>0.92</SharpDamageMultiplier>
+    </statBases>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <commonality>1.00</commonality>
+      <constructEffect>ConstructMetal</constructEffect>
+      <isAirtight>true</isAirtight>
+      <color>(143, 0, 123)</color>
+      <soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Metal</soundImpactMelee>
+      <statFactors>
+        <MaxHitPoints>0.9</MaxHitPoints>
+        <Beauty>1.1</Beauty>
+        <Flammability>0</Flammability>
+      </statFactors>
+      <statOffsets>
+        <Beauty>3</Beauty>
+        <Cleanliness>0.2</Cleanliness>
+      </statOffsets>
+    </stuffProps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+  </ThingDef>
+
 </Defs>
