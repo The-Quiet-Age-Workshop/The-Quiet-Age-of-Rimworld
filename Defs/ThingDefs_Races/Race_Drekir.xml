@@ -143,7 +143,27 @@
                 </alienPartGenerator>
             </generalSettings>
             <styleSettings></styleSettings>
-            <thoughtSettings></thoughtSettings>
+            <thoughtSettings>
+				<cannotReceiveThoughts>
+					<li>AteRawFood</li>
+					<li>AteKibble</li>
+					<li>AteWithoutTable</li>
+					<li>SleptOnGround</li>
+					<li>SleptOutside</li>
+					<li>WrongApparelGender</li>
+					<li>Affair</li>
+					<li>Incestuous</li>
+					<li>WantToSleepWithSpouseOrLover</li>
+					<li>SharedBed</li>
+					<li>Naked</li>
+				</cannotReceiveThoughts>
+				<replacerList>
+				<li>
+					<original>SleptInBarracks</original>
+					<replacer>RTC_PackSleptInBarracks</replacer> 
+				</li>
+				</replacerList>
+			</thoughtSettings>
             <relationSettings>
 				<relationChanceModifierChild>1</relationChanceModifierChild>
 				<relationChanceModifierExLover>1</relationChanceModifierExLover>
