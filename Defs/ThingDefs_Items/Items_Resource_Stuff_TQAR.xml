@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+  <!--Stal-->
+
   <ThingDef ParentName="ResourceBase">
     <defName>RefinedStal</defName>
     <label>refined stal</label>
@@ -76,6 +78,254 @@
     </thingCategories>
     <allowedArchonexusCount>80</allowedArchonexusCount>
   </ThingDef>
+
+  <!--Stalbronze-->
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>Cham</defName>
+    <label>cham</label>
+    <description>A stalbronze consisting mostly of copper and a relatively small portion of tin and stalpowder. Cham is not as hard and durable as iron, but it is quicker to work and it also has some unique benefits, like a bonus to cleanliness and beauty.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Cham</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <statBases>
+      <MarketValue>10.2</MarketValue>
+      <Mass>5.017</Mass>
+      <StuffPower_Armor_Sharp>0.45</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.3</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.2</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>4</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>3</StuffPower_Insulation_Heat>
+      <BluntDamageMultiplier>0.9</BluntDamageMultiplier>
+      <SharpDamageMultiplier>0.55</SharpDamageMultiplier>
+    </statBases>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <commonality>1.00</commonality>
+      <constructEffect>ConstructMetal</constructEffect>
+      <isAirtight>true</isAirtight>
+      <color>(176, 139, 101)</color>
+      <soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Metal</soundImpactMelee>
+      <statFactors>
+        <MaxHitPoints>0.9</MaxHitPoints>
+        <Beauty>1.1</Beauty>
+        <Flammability>0</Flammability>
+      </statFactors>
+      <statOffsets>
+        <Beauty>3</Beauty>
+        <Cleanliness>0.2</Cleanliness>
+      </statOffsets>
+    </stuffProps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <modExtensions>
+      <li Class="VEF.Things.StuffExtension">
+        <structureGenerationCommonalityFactor>0</structureGenerationCommonalityFactor>
+        <weaponGenerationCommonalityFactor>0.15</weaponGenerationCommonalityFactor>
+        <apparelGenerationCommonalityFactor>0.15</apparelGenerationCommonalityFactor>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>Ori</defName>
+    <label>ori</label>
+    <description>A stalbronze consisting mostly of copper and a relatively small portion of gold, silver and stalpowder. Ori is not as hard and durable as iron, but it is quicker to work and it also has some unique benefits, like a bonus to cleanliness and beauty.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Ori</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <statBases>
+      <MarketValue>20.1</MarketValue>
+      <Mass>5.028</Mass>
+      <StuffPower_Armor_Sharp>1.08</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>1.02</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.74</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>10</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>3</StuffPower_Insulation_Heat>
+      <BluntDamageMultiplier>2.5</BluntDamageMultiplier>
+      <SharpDamageMultiplier>2.55</SharpDamageMultiplier>
+    </statBases>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <commonality>1.00</commonality>
+      <constructEffect>ConstructMetal</constructEffect>
+      <isAirtight>true</isAirtight>
+      <color>(176, 139, 101)</color>
+      <soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Metal</soundImpactMelee>
+      <statFactors>
+        <MaxHitPoints>0.9</MaxHitPoints>
+        <Beauty>1.1</Beauty>
+        <Flammability>0</Flammability>
+      </statFactors>
+      <statOffsets>
+        <Beauty>3</Beauty>
+        <Cleanliness>0.2</Cleanliness>
+      </statOffsets>
+    </stuffProps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <modExtensions>
+      <li Class="VEF.Things.StuffExtension">
+        <structureGenerationCommonalityFactor>0</structureGenerationCommonalityFactor>
+        <weaponGenerationCommonalityFactor>0.15</weaponGenerationCommonalityFactor>
+        <apparelGenerationCommonalityFactor>0.15</apparelGenerationCommonalityFactor>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>Stalndoa</defName>
+    <label>stalndoa copper</label>
+    <description>A stalbronze consisting mostly of copper and a relatively small portion of stalpowder. Stalndoa copper is not as hard and durable as iron, but it is quicker to work and it also has some unique benefits, like a bonus to cleanliness and beauty.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Stalndoa</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <statBases>
+      <MarketValue>9.1</MarketValue>
+      <Mass>5.012</Mass>
+      <StuffPower_Armor_Sharp>0.45</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.3</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.2</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>4</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>3</StuffPower_Insulation_Heat>
+      <BluntDamageMultiplier>0.9</BluntDamageMultiplier>
+      <SharpDamageMultiplier>0.55</SharpDamageMultiplier>
+    </statBases>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <commonality>1.00</commonality>
+      <constructEffect>ConstructMetal</constructEffect>
+      <isAirtight>true</isAirtight>
+      <color>(176, 139, 101)</color>
+      <soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Metal</soundImpactMelee>
+      <statFactors>
+        <MaxHitPoints>0.9</MaxHitPoints>
+        <Beauty>1.1</Beauty>
+        <Flammability>0</Flammability>
+      </statFactors>
+      <statOffsets>
+        <Beauty>3</Beauty>
+        <Cleanliness>0.2</Cleanliness>
+      </statOffsets>
+    </stuffProps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <modExtensions>
+      <li Class="VEF.Things.StuffExtension">
+        <structureGenerationCommonalityFactor>0</structureGenerationCommonalityFactor>
+        <weaponGenerationCommonalityFactor>0.15</weaponGenerationCommonalityFactor>
+        <apparelGenerationCommonalityFactor>0.15</apparelGenerationCommonalityFactor>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>Urd</defName>
+    <label>urd</label>
+    <description>A stalbronze consisting mostly of copper and a relatively small portion of lead and stalpowder. Stalndoa copper is not as hard and durable as iron, but it is quicker to work and it also has some unique benefits, like a bonus to cleanliness and beauty.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Urd</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <statBases>
+      <MarketValue>10.3</MarketValue>
+      <Mass>5.912</Mass>
+      <StuffPower_Armor_Sharp>0.9</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.4</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>7</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>3</StuffPower_Insulation_Heat>
+      <BluntDamageMultiplier>1.9</BluntDamageMultiplier>
+      <SharpDamageMultiplier>1.09</SharpDamageMultiplier>
+    </statBases>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <commonality>1.00</commonality>
+      <constructEffect>ConstructMetal</constructEffect>
+      <isAirtight>true</isAirtight>
+      <color>(176, 139, 101)</color>
+      <soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Metal</soundImpactMelee>
+      <statFactors>
+        <MaxHitPoints>0.9</MaxHitPoints>
+        <Beauty>1.1</Beauty>
+        <Flammability>0</Flammability>
+      </statFactors>
+      <statOffsets>
+        <Beauty>3</Beauty>
+        <Cleanliness>0.2</Cleanliness>
+      </statOffsets>
+    </stuffProps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <modExtensions>
+      <li Class="VEF.Things.StuffExtension">
+        <structureGenerationCommonalityFactor>0</structureGenerationCommonalityFactor>
+        <weaponGenerationCommonalityFactor>0.15</weaponGenerationCommonalityFactor>
+        <apparelGenerationCommonalityFactor>0.15</apparelGenerationCommonalityFactor>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!--Yaetilithics-->
 
   <ThingDef ParentName="ResourceBase">
     <defName>Yaetil</defName>

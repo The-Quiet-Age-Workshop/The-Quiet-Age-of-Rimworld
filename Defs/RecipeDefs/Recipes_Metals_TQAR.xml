@@ -14,12 +14,238 @@
         <researchPrerequisite>Smithing</researchPrerequisite> <!-- EM Alloy research project -->
     </RecipeDef>
 
+    <!--Stalbronzes-->
+
+    <RecipeDef ParentName="TQAR_MetalSmithing">
+        <defName>MakeCham</defName>
+        <label>make cham</label>
+        <description>Make stalbronze from copper and tin.</description>
+        <jobString>Make stalbronze.</jobString>
+        <workAmount>3100</workAmount> <!-- Placeholder -->
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>EM_Copper</li>
+                    </thingDefs>
+                </filter>
+                <count>2</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>EM_Tin</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Stalpowder</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>EM_Coal</li>
+                        <li>EM_Charcoal</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>EM_Copper</li>
+                <li>EM_Tin</li>
+                <li>Stalpowder</li>
+                <li>EM_Coal</li>
+                <li>EM_Charcoal</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <Cham>1</Cham>
+        </products>
+        <researchPrerequisite>Smithing</researchPrerequisite>
+    </RecipeDef>
+
+    <RecipeDef ParentName="TQAR_MetalSmithing">
+        <defName>MakeOri</defName>
+        <label>make ori</label>
+        <description>Make stalbronze from copper, gold, and silver.</description>
+        <jobString>Make stalbronze.</jobString>
+        <workAmount>3100</workAmount> <!-- Placeholder -->
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>EM_Copper</li>
+                    </thingDefs>
+                </filter>
+                <count>2</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Gold</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Silver</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Stalpowder</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>EM_Coal</li>
+                        <li>EM_Charcoal</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>EM_Copper</li>
+                <li>Gold</li>
+                <li>Silver</li>
+                <li>Stalpowder</li>
+                <li>EM_Coal</li>
+                <li>EM_Charcoal</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <Ori>1</Ori>
+        </products>
+        <researchPrerequisite>Smithing</researchPrerequisite>
+    </RecipeDef>
+
+    <RecipeDef ParentName="TQAR_MetalSmithing">
+        <defName>MakeStalndoa</defName>
+        <label>make stalndoa copper</label>
+        <description>Make stalbronze from copper.</description>
+        <jobString>Make stalbronze.</jobString>
+        <workAmount>3100</workAmount> <!-- Placeholder -->
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>EM_Copper</li>
+                    </thingDefs>
+                </filter>
+                <count>2</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Stalpowder</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>EM_Coal</li>
+                        <li>EM_Charcoal</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>EM_Copper</li>
+                <li>Stalpowder</li>
+                <li>EM_Coal</li>
+                <li>EM_Charcoal</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <Stalndoa>1</Stalndoa>
+        </products>
+        <researchPrerequisite>Smithing</researchPrerequisite>
+    </RecipeDef>
+
+    <RecipeDef ParentName="TQAR_MetalSmithing">
+        <defName>MakeUrd</defName>
+        <label>make stalbronze</label>
+        <description>Make stalbronze from copper and lead.</description>
+        <jobString>Make stalbronze.</jobString>
+        <workAmount>3100</workAmount> <!-- Placeholder -->
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>EM_Copper</li>
+                    </thingDefs>
+                </filter>
+                <count>2</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>EM_Lead</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Stalpowder</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>EM_Coal</li>
+                        <li>EM_Charcoal</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>EM_Copper</li>
+                <li>EM_Lead</li>
+                <li>Stalpowder</li>
+                <li>EM_Coal</li>
+                <li>EM_Charcoal</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <Urd>1</Urd>
+        </products>
+        <researchPrerequisite>Smithing</researchPrerequisite>
+    </RecipeDef>
+
     <!--Yaetilithics-->
 
     <RecipeDef ParentName="TQAR_MetalSmithing">
         <defName>MakeYaetil</defName>
         <label>make raw yaetil</label>
-        <description>Make raw yaetil from metals and carbon</description>
+        <description>Make raw yaetil from metals and carbon.</description>
         <jobString>Make raw yaetil.</jobString>
         <workAmount>4650</workAmount> <!-- Placeholder -->
         <ingredients>
@@ -63,7 +289,7 @@
     <RecipeDef ParentName="TQAR_MetalSmithing">
         <defName>MakeYaetil_Forged</defName>
         <label>make forged yaetil</label>
-        <description>Make forged yaetil from metals and carbon</description>
+        <description>Make forged yaetil from metals and carbon.</description>
         <jobString>Make forged yaetil.</jobString>
         <workAmount>6975</workAmount> <!-- Placeholder -->
         <ingredients>
@@ -107,7 +333,7 @@
     <RecipeDef ParentName="TQAR_MetalSmithing">
         <defName>MakeYaetil_Smelted</defName>
         <label>make smelted yaetil</label>
-        <description>Make smelted yaetil from metals and carbon</description>
+        <description>Make smelted yaetil from metals and carbon.</description>
         <jobString>Make smelted yaetil.</jobString>
         <workAmount>3100</workAmount> <!-- Placeholder -->
         <ingredients>
