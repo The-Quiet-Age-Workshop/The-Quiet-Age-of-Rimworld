@@ -10,8 +10,8 @@
     <pawnsPlural>denmates</pawnsPlural>
     <basicMemberKind>DrekirKind</basicMemberKind>
     <techLevel>Neolithic</techLevel>
-    <factionNameMaker>NamerFactionTribal</factionNameMaker>
-    <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+    <factionNameMaker>NamerFactionEldimorClan</factionNameMaker>
+    <settlementNameMaker>NamerSettlementEldimorDen</settlementNameMaker>
     <allowedCultures>
       <li>Eldimor</li>
     </allowedCultures>

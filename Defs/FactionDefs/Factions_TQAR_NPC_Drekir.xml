@@ -12,8 +12,8 @@
     <canStageAttacks>true</canStageAttacks>
     <factionIconPath>World/WorldObjects/Expanding/Village</factionIconPath>
     <techLevel>Neolithic</techLevel>
-    <factionNameMaker>NamerFactionTribal</factionNameMaker>
-    <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+    <factionNameMaker>NamerFactionEldimorClan</factionNameMaker>
+    <settlementNameMaker>NamerSettlementEldimorDen</settlementNameMaker>
     <allowedCultures><li>Eldimor</li></allowedCultures>
     <requiredMemes>
       <li MayRequire="AvenskolProductions.RimTales.Core">RTC_Anarchism</li>
