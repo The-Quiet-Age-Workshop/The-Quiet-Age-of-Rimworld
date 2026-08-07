@@ -62,7 +62,7 @@
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
           <thingDef>MeleeWeapon_Ikwa</thingDef>
-          <stuff>Steel</stuff>
+          <stuff>Yaetil_Smelted</stuff>
           <count>2</count>
         </li>
         <li Class="ScenPart_StartingThing_Defined">
