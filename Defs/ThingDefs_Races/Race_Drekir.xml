@@ -7,10 +7,10 @@
         <alienRace>
             <graphicPaths>
                 <body>
-					<path>Blank/blank</path>
+					<path>Things/Pawn/Humanlike/Bodies/Drek_Body</path>
 				</body>
 				<head>
-					<path>Blank/blank</path>
+					<path>Things/Pawn/Humanlike/Heads/Drek_Head</path>
 				</head>
             </graphicPaths>
             <generalSettings>
@@ -28,118 +28,32 @@
     							<options>
 		    						<li>
 										<weight>8</weight>
-										<only>RGBA(0.8,0.71,0.64,1.0)</only>
+										<only>RGBA(1.0,0.5,0.0,1.0)</only>
 									</li>
 			    					<li>
 					    				<weight>8</weight>
-					    				<only>RGBA(0.71,0.8,0.64,1.0)</only>
+					    				<only>RGBA(1.0,0.0,0.5,1.0)</only>
 									</li>
 		    						<li>
 			    						<weight>8</weight>
-					    				<only>RGBA(0.64,0.71,0.8,1.0)</only>
+					    				<only>RGBA(0.5,1.0,0.0,1.0)</only>
 									</li>
 		    						<li>
 			    						<weight>8</weight>
-				    					<only>RGBA(0.8,0.64,0.71,1.0)</only>
+				    					<only>RGBA(0.0,1.0,0.5,1.0)</only>
+		    						</li>
+									<li>
+			    						<weight>8</weight>
+				    					<only>RGBA(0.5,0.0,1.0,1.0)</only>
+		    						</li>
+									<li>
+			    						<weight>8</weight>
+				    					<only>RGBA(0.0,0.5,1.0,1.0)</only>
 		    						</li>
     							</options>
 							</first>
 						</li>
 					</colorChannels>
-					<bodyAddons>
-						<li>
-							<name>eyes</name>
-							<userCustomizable>true</userCustomizable>
-							<colorChannel>eye</colorChannel>
-							<inFrontOfBody>true</inFrontOfBody>
-							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-							<defaultOffset>Center</defaultOffset>
-							<alignWithHead>true</alignWithHead>
-							<conditions>
-								<BodyPart>
-									<bodyPart>Head</bodyPart>
-								</BodyPart>
-								<RotStage>Fresh,Rotting</RotStage>
-								<Posture>
-									<drawnStanding>true</drawnStanding>
-									<drawnLaying>true</drawnLaying>
-								</Posture>
-							</conditions>
-							<extendedGraphics>
-								<HeadType For="TQAR_Drek_Head">Blank/blank</HeadType>
-							</extendedGraphics>
-							<offsets>
-								<south>
-									<layerOffset>0</layerOffset>
-								</south>
-								<north/>
-								<east>
-									<layerOffset>0</layerOffset>
-								</east>
-							</offsets>
-						</li>
-						<li>
-							<name>head</name>
-							<userCustomizable>true</userCustomizable>
-							<colorChannel>skin</colorChannel>
-							<inFrontOfBody>true</inFrontOfBody>
-							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-							<defaultOffset>Center</defaultOffset>
-							<alignWithHead>true</alignWithHead>
-							<conditions>
-								<BodyPart>
-									<bodyPart>Head</bodyPart>
-								</BodyPart>
-								<RotStage>Fresh,Rotting</RotStage>
-								<Posture>
-									<drawnStanding>true</drawnStanding>
-									<drawnLaying>true</drawnLaying>
-								</Posture>
-							</conditions>
-							<extendedGraphics>
-								<HeadType For="TQAR_Drek_Head">Things/Pawn/Humanlike/Heads/Drek_Head</HeadType>
-							</extendedGraphics>
-							<offsets>
-								<south>
-									<layerOffset>0</layerOffset>
-								</south>
-								<north/>
-								<east>
-									<layerOffset>0</layerOffset>
-								</east>
-							</offsets>
-						</li>
-						<li>
-							<name>body</name>
-							<userCustomizable>true</userCustomizable>
-							<colorChannel>skin</colorChannel>
-							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-							<defaultOffset>Center</defaultOffset>
-							<conditions>
-								<BodyPart>
-									<bodyPart>Torso</bodyPart>
-								</BodyPart>
-								<RotStage>Fresh,Rotting</RotStage>
-								<Posture>
-									<drawnStanding>true</drawnStanding>
-									<drawnLaying>true</drawnLaying>
-									<drawnInBed>true</drawnInBed>
-								</Posture>
-							</conditions>
-							<extendedGraphics>
-								<BodyType For="TQAR_Drek_Body">Things/Pawn/Humanlike/Bodies/Drek_Body</BodyType>
-							</extendedGraphics>
-							<offsets>
-								<south>
-									<layerOffset>0</layerOffset>
-								</south>
-								<north/>
-								<east>
-									<layerOffset>0</layerOffset>
-								</east>
-							</offsets>
-						</li>
-					</bodyAddons>
                 </alienPartGenerator>
             </generalSettings>
             <styleSettings></styleSettings>
