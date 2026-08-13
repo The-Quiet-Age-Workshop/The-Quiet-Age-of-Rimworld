@@ -11,7 +11,7 @@
     <initialResistanceRange>13~21</initialResistanceRange>
     <apparelMoney>180~350</apparelMoney>
     <apparelTags>
-      <li>drekirclothesclan</li>
+      <li>Neolithic</li>
     </apparelTags>
   </PawnKindDef>
 
@@ -28,7 +28,7 @@
     <invNutrition>2.55</invNutrition>
     <invFoodDef>Pemmican</invFoodDef>
     <apparelTags>
-      <li>drekirclothesclan</li>
+      <li>Neolithic</li>
     </apparelTags>
   </PawnKindDef>
 
