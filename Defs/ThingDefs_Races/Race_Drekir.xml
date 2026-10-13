@@ -216,6 +216,9 @@
 			</renamer>
 			</relationSettings>
             <raceRestriction>
+				<blackEndoCategories>
+					<li>Melanin</li>
+				</blackEndoCategories>
 				<whiteApparelList>
 					<li>Apparel_ShieldBelt</li>
 					<li>Apparel_SmokepopBelt</li>
