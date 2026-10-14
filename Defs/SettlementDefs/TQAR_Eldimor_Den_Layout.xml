@@ -1,4 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
+	<KCSG.SettlementLayoutDef>
+		<defName>TQAR_EldimorDen</defName>
+		<settlementSize>86,86</settlementSize>
+		<avoidBridgeable>true</avoidBridgeable>
+		<avoidMountains>true</avoidMountains>
+		<centerBuildings>
+			<centerSize>85,85</centerSize>
+			<forceClean>true</forceClean>
+			<allowedStructures>
+				<li>
+					<count>1~2</count>
+					<tag>TQAR_StorageHut</tag>
+				</li>
+				<li>
+					<count>0~2</count>
+					<tag>TQAR_ResearchHut</tag>
+				</li>
+				<li>
+					<count>2~10</count>
+					<tag>TQAR_SleepHut</tag>
+				</li>
+			</allowedStructures>
+			<centralBuildingTags>
+				<li>TQAR_StorageHut</li>
+				<li>TQAR_ResearchHut</li>
+				<li>TQAR_SleepHut</li>
+			</centralBuildingTags>
+		</centerBuildings>
+	</KCSG.SettlementLayoutDef>
 
 </Defs>

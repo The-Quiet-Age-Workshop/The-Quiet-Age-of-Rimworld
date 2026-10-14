@@ -206,6 +206,14 @@
       </li>
     </pawnGroupMakers>
     <settlementTexturePath>World/WorldObjects/Expanding/DrekirClan</settlementTexturePath>
+    <modExtensions>	  
+      <li Class="KCSG.CustomGenOption">
+        <chooseFromSettlements>
+          <li>TQAR_EldimorDen</li>
+        </chooseFromSettlements>
+        <preventBridgeable>true</preventBridgeable>
+      </li>
+    </modExtensions>
   </FactionDef>
 
   <FactionDef ParentName="DrekirNPCFactionBase">
