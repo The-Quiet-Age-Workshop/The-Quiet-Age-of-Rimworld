@@ -27,27 +27,67 @@
 						    <first Class="ColorGenerator_Options">	
     							<options>
 		    						<li>
-										<weight>8</weight>
-										<only>RGBA(1.0,0.5,0.0,1.0)</only>
-									</li>
-			    					<li>
-					    				<weight>8</weight>
-					    				<only>RGBA(1.0,0.0,0.5,1.0)</only>
+			    						<weight>1</weight>
+					    				<only>RGBA(1.0,1.0,1.0,1.0)</only>
 									</li>
 		    						<li>
-			    						<weight>8</weight>
+			    						<weight>1</weight>
+					    				<only>RGBA(1.0,1.0,0.5,1.0)</only>
+									</li>
+		    						<li>
+			    						<weight>1</weight>
+					    				<only>RGBA(1.0,0.5,1.0,1.0)</only>
+									</li>
+		    						<li>
+			    						<weight>1</weight>
+					    				<only>RGBA(0.5,1.0,1.0,1.0)</only>
+									</li>
+		    						<li>
+			    						<weight>1</weight>
+					    				<only>RGBA(1.0,0.5,0.5,1.0)</only>
+									</li>
+		    						<li>
+			    						<weight>1</weight>
+					    				<only>RGBA(0.5,0.5,1.0,1.0)</only>
+									</li>
+		    						<li>
+			    						<weight>1</weight>
+					    				<only>RGBA(0.5,1.0,0.5,1.0)</only>
+									</li>
+		    						<li>
+			    						<weight>1</weight>
 					    				<only>RGBA(0.5,1.0,0.0,1.0)</only>
 									</li>
 		    						<li>
-			    						<weight>8</weight>
+										<weight>1</weight>
+										<only>RGBA(1.0,1.0,0.0,1.0)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(1.0,0.5,0.0,1.0)</only>
+									</li>
+		    						<li>
+			    						<weight>1</weight>
+				    					<only>RGBA(0.0,1.0,1.0,1.0)</only>
+		    						</li>
+		    						<li>
+			    						<weight>1</weight>
 				    					<only>RGBA(0.0,1.0,0.5,1.0)</only>
 		    						</li>
+			    					<li>
+					    				<weight>1</weight>
+					    				<only>RGBA(1.0,0.0,0.5,1.0)</only>
+									</li>
+			    					<li>
+					    				<weight>1</weight>
+					    				<only>RGBA(1.0,0.0,1.0,1.0)</only>
+									</li>
 									<li>
-			    						<weight>8</weight>
+			    						<weight>1</weight>
 				    					<only>RGBA(0.5,0.0,1.0,1.0)</only>
 		    						</li>
 									<li>
-			    						<weight>8</weight>
+			    						<weight>1</weight>
 				    					<only>RGBA(0.0,0.5,1.0,1.0)</only>
 		    						</li>
     							</options>
@@ -217,8 +257,17 @@
 			</relationSettings>
             <raceRestriction>
 				<blackEndoCategories>
+					<li>Ears</li>
+					<li>BodyType</li>
+					<li>HairColor</li>
+					<li>Head</li>
+					<li>Headbone</li>
+					<li>Jaw</li>
 					<li>Melanin</li>
 				</blackEndoCategories>
+				<blackGeneTags>
+					<li>Tail</li>
+				</blackGeneTags>
 				<whiteApparelList>
 					<li>Apparel_ShieldBelt</li>
 					<li>Apparel_SmokepopBelt</li>
