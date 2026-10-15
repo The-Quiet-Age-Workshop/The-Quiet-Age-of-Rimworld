@@ -25,7 +25,6 @@
       <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
       <SharpDamageMultiplier>2.2</SharpDamageMultiplier>
       <BluntDamageMultiplier>0.45</BluntDamageMultiplier>
-      <DeteriorationRate>0.25</DeteriorationRate>
     </statBases>
     <thingCategories>
       <li>ResourcesRaw</li>

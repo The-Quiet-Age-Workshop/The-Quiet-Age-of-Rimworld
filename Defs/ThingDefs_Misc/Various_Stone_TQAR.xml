@@ -67,7 +67,6 @@
     <statBases>
       <Mass>1</Mass>
       <SharpDamageMultiplier>0.5</SharpDamageMultiplier>
-      <DeteriorationRate>0.5</DeteriorationRate>
     </statBases>
     <stuffProps>
       <color>(43,34,56)</color>
