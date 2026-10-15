@@ -14,9 +14,9 @@
         <li>.,Wall_WoodLog,Wall_WoodLog,.,.,.,.,.,.,.,Wall_WoodLog,Wall_WoodLog,.</li>
         <li>Wall_WoodLog,Wall_WoodLog,.,.,.,.,.,.,.,.,.,Wall_WoodLog,Wall_WoodLog</li>
         <li>Wall_WoodLog,.,.,.,.,.,.,.,.,.,.,.,Wall_WoodLog</li>
-        <li>Wall_WoodLog,.,.,.,.,.,PassiveCooler_Fuel86,.,.,.,.,.,Wall_WoodLog</li>
-        <li>Door_WoodLog,.,.,.,.,Campfire_East_Fuel67,Column_WoodLog,.,.,.,.,.,Wall_WoodLog</li>
-        <li>Wall_WoodLog,.,.,.,.,.,PassiveCooler_Fuel86,.,.,.,.,.,Wall_WoodLog</li>
+        <li>Wall_WoodLog,.,.,.,.,.,PassiveCooler,.,.,.,.,.,Wall_WoodLog</li>
+        <li>Door_WoodLog,.,.,.,.,Campfire_East,Column_WoodLog,.,.,.,.,.,Wall_WoodLog</li>
+        <li>Wall_WoodLog,.,.,.,.,.,PassiveCooler,.,.,.,.,.,Wall_WoodLog</li>
         <li>Wall_WoodLog,.,.,.,.,.,.,.,.,.,.,.,Wall_WoodLog</li>
         <li>Wall_WoodLog,Wall_WoodLog,.,.,.,.,.,.,.,.,.,Wall_WoodLog,Wall_WoodLog</li>
         <li>.,Wall_WoodLog,Wall_WoodLog,.,.,.,.,.,.,.,Wall_WoodLog,Wall_WoodLog,.</li>
@@ -72,9 +72,9 @@
         <li>.,Wall_WoodLog,Wall_WoodLog,.,.,.,.,.,.,.,Wall_WoodLog,Wall_WoodLog,.</li>
         <li>Wall_WoodLog,Wall_WoodLog,.,.,.,.,.,.,.,.,.,Wall_WoodLog,Wall_WoodLog</li>
         <li>Wall_WoodLog,.,.,.,.,.,.,.,.,.,.,.,Wall_WoodLog</li>
-        <li>Wall_WoodLog,.,.,.,.,.,PassiveCooler_Fuel86,.,.,.,.,.,Wall_WoodLog</li>
-        <li>Wall_WoodLog,.,.,.,.,.,Column_WoodLog,Campfire_West_Fuel67,.,.,.,.,Door_WoodLog</li>
-        <li>Wall_WoodLog,.,.,.,.,.,PassiveCooler_Fuel86,.,.,.,.,.,Wall_WoodLog</li>
+        <li>Wall_WoodLog,.,.,.,.,.,PassiveCooler,.,.,.,.,.,Wall_WoodLog</li>
+        <li>Wall_WoodLog,.,.,.,.,.,Column_WoodLog,Campfire_West,.,.,.,.,Door_WoodLog</li>
+        <li>Wall_WoodLog,.,.,.,.,.,PassiveCooler,.,.,.,.,.,Wall_WoodLog</li>
         <li>Wall_WoodLog,.,.,.,.,.,.,.,.,.,.,.,Wall_WoodLog</li>
         <li>Wall_WoodLog,Wall_WoodLog,.,.,.,.,.,.,.,.,.,Wall_WoodLog,Wall_WoodLog</li>
         <li>.,Wall_WoodLog,Wall_WoodLog,.,.,.,.,.,.,.,Wall_WoodLog,Wall_WoodLog,.</li>
@@ -130,8 +130,8 @@
         <li>.,Wall_WoodLog,Wall_WoodLog,.,.,.,.,.,.,.,Wall_WoodLog,Wall_WoodLog,.</li>
         <li>Wall_WoodLog,Wall_WoodLog,.,.,.,.,.,.,.,.,.,Wall_WoodLog,Wall_WoodLog</li>
         <li>Wall_WoodLog,.,.,.,.,.,.,.,.,.,.,.,Wall_WoodLog</li>
-        <li>Wall_WoodLog,.,.,.,.,.,Campfire_North_Fuel67,.,.,.,.,.,Wall_WoodLog</li>
-        <li>Wall_WoodLog,.,.,.,.,PassiveCooler_Fuel86,Column_WoodLog,PassiveCooler_Fuel86,.,.,.,.,Wall_WoodLog</li>
+        <li>Wall_WoodLog,.,.,.,.,.,Campfire_North,.,.,.,.,.,Wall_WoodLog</li>
+        <li>Wall_WoodLog,.,.,.,.,PassiveCooler,Column_WoodLog,PassiveCooler,.,.,.,.,Wall_WoodLog</li>
         <li>Wall_WoodLog,.,.,.,.,.,.,.,.,.,.,.,Wall_WoodLog</li>
         <li>Wall_WoodLog,.,.,.,.,.,.,.,.,.,.,.,Wall_WoodLog</li>
         <li>Wall_WoodLog,Wall_WoodLog,.,.,.,.,.,.,.,.,.,Wall_WoodLog,Wall_WoodLog</li>
@@ -189,8 +189,8 @@
         <li>Wall_WoodLog,Wall_WoodLog,.,.,.,.,.,.,.,.,.,Wall_WoodLog,Wall_WoodLog</li>
         <li>Wall_WoodLog,.,.,.,.,.,.,.,.,.,.,.,Wall_WoodLog</li>
         <li>Wall_WoodLog,.,.,.,.,.,.,.,.,.,.,.,Wall_WoodLog</li>
-        <li>Wall_WoodLog,.,.,.,.,PassiveCooler_Fuel86,Column_WoodLog,PassiveCooler_Fuel86,.,.,.,.,Wall_WoodLog</li>
-        <li>Wall_WoodLog,.,.,.,.,.,Campfire_South_Fuel67,.,.,.,.,.,Wall_WoodLog</li>
+        <li>Wall_WoodLog,.,.,.,.,PassiveCooler,Column_WoodLog,PassiveCooler,.,.,.,.,Wall_WoodLog</li>
+        <li>Wall_WoodLog,.,.,.,.,.,Campfire_South,.,.,.,.,.,Wall_WoodLog</li>
         <li>Wall_WoodLog,.,.,.,.,.,.,.,.,.,.,.,Wall_WoodLog</li>
         <li>Wall_WoodLog,Wall_WoodLog,.,.,.,.,.,.,.,.,.,Wall_WoodLog,Wall_WoodLog</li>
         <li>.,Wall_WoodLog,Wall_WoodLog,.,.,.,.,.,.,.,Wall_WoodLog,Wall_WoodLog,.</li>
@@ -247,9 +247,9 @@
         <li>.,Wall_WoodLog,Wall_WoodLog,.,.,.,.,.,.,.,Wall_WoodLog,Wall_WoodLog,.</li>
         <li>Wall_WoodLog,Wall_WoodLog,.,.,.,.,.,.,.,.,.,Wall_WoodLog,Wall_WoodLog</li>
         <li>Wall_WoodLog,.,.,.,.,.,.,.,.,.,.,Bedroll_Leather_Light_West,Wall_WoodLog</li>
-        <li>Wall_WoodLog,.,.,.,.,.,PassiveCooler_Fuel82,.,.,.,.,Bedroll_Leather_Light_West,Wall_WoodLog</li>
-        <li>Door_WoodLog,.,.,.,.,Campfire_East_Fuel56,Column_WoodLog,.,.,.,.,Bedroll_Leather_Light_West,Wall_WoodLog</li>
-        <li>Wall_WoodLog,.,.,.,.,.,PassiveCooler_Fuel82,.,.,.,.,Bedroll_Leather_Light_West,Wall_WoodLog</li>
+        <li>Wall_WoodLog,.,.,.,.,.,PassiveCooler,.,.,.,.,Bedroll_Leather_Light_West,Wall_WoodLog</li>
+        <li>Door_WoodLog,.,.,.,.,Campfire_East,Column_WoodLog,.,.,.,.,Bedroll_Leather_Light_West,Wall_WoodLog</li>
+        <li>Wall_WoodLog,.,.,.,.,.,PassiveCooler,.,.,.,.,Bedroll_Leather_Light_West,Wall_WoodLog</li>
         <li>Wall_WoodLog,.,.,.,.,.,.,.,.,.,.,Bedroll_Leather_Light_West,Wall_WoodLog</li>
         <li>Wall_WoodLog,Wall_WoodLog,.,.,.,.,.,.,.,.,.,Wall_WoodLog,Wall_WoodLog</li>
         <li>.,Wall_WoodLog,Wall_WoodLog,.,.,.,.,.,.,.,Wall_WoodLog,Wall_WoodLog,.</li>
@@ -304,9 +304,9 @@
         <li>.,Wall_WoodLog,Wall_WoodLog,.,.,.,.,.,.,.,Wall_WoodLog,Wall_WoodLog,.</li>
         <li>Wall_WoodLog,Wall_WoodLog,.,.,.,.,.,.,.,.,.,Wall_WoodLog,Wall_WoodLog</li>
         <li>Wall_WoodLog,Bedroll_Leather_Light_East,.,.,.,.,.,.,.,.,.,.,Wall_WoodLog</li>
-        <li>Wall_WoodLog,Bedroll_Leather_Light_East,.,.,.,.,PassiveCooler_Fuel82,.,.,.,.,.,Wall_WoodLog</li>
-        <li>Wall_WoodLog,Bedroll_Leather_Light_East,.,.,.,.,Column_WoodLog,Campfire_West_Fuel56,.,.,.,.,Door_WoodLog</li>
-        <li>Wall_WoodLog,Bedroll_Leather_Light_East,.,.,.,.,PassiveCooler_Fuel82,.,.,.,.,.,Wall_WoodLog</li>
+        <li>Wall_WoodLog,Bedroll_Leather_Light_East,.,.,.,.,PassiveCooler,.,.,.,.,.,Wall_WoodLog</li>
+        <li>Wall_WoodLog,Bedroll_Leather_Light_East,.,.,.,.,Column_WoodLog,Campfire_West,.,.,.,.,Door_WoodLog</li>
+        <li>Wall_WoodLog,Bedroll_Leather_Light_East,.,.,.,.,PassiveCooler,.,.,.,.,.,Wall_WoodLog</li>
         <li>Wall_WoodLog,Bedroll_Leather_Light_East,.,.,.,.,.,.,.,.,.,.,Wall_WoodLog</li>
         <li>Wall_WoodLog,Wall_WoodLog,.,.,.,.,.,.,.,.,.,Wall_WoodLog,Wall_WoodLog</li>
         <li>.,Wall_WoodLog,Wall_WoodLog,.,.,.,.,.,.,.,Wall_WoodLog,Wall_WoodLog,.</li>
@@ -361,8 +361,8 @@
         <li>.,Wall_WoodLog,Wall_WoodLog,.,.,.,.,.,.,.,Wall_WoodLog,Wall_WoodLog,.</li>
         <li>Wall_WoodLog,Wall_WoodLog,.,.,.,.,.,.,.,.,.,Wall_WoodLog,Wall_WoodLog</li>
         <li>Wall_WoodLog,Bedroll_Leather_Light_East,.,.,.,.,.,.,.,.,.,Bedroll_Leather_Light_West,Wall_WoodLog</li>
-        <li>Wall_WoodLog,Bedroll_Leather_Light_East,.,.,.,.,Campfire_North_Fuel56,.,.,.,.,Bedroll_Leather_Light_West,Wall_WoodLog</li>
-        <li>Wall_WoodLog,Bedroll_Leather_Light_East,.,.,.,PassiveCooler_Fuel82,Column_WoodLog,PassiveCooler_Fuel82,.,.,.,Bedroll_Leather_Light_West,Wall_WoodLog</li>
+        <li>Wall_WoodLog,Bedroll_Leather_Light_East,.,.,.,.,Campfire_North,.,.,.,.,Bedroll_Leather_Light_West,Wall_WoodLog</li>
+        <li>Wall_WoodLog,Bedroll_Leather_Light_East,.,.,.,PassiveCooler,Column_WoodLog,PassiveCooler,.,.,.,Bedroll_Leather_Light_West,Wall_WoodLog</li>
         <li>Wall_WoodLog,Bedroll_Leather_Light_East,.,.,.,.,.,.,.,.,.,Bedroll_Leather_Light_West,Wall_WoodLog</li>
         <li>Wall_WoodLog,Bedroll_Leather_Light_East,.,.,.,.,.,.,.,.,.,Bedroll_Leather_Light_West,Wall_WoodLog</li>
         <li>Wall_WoodLog,Wall_WoodLog,.,.,.,.,.,.,.,.,.,Wall_WoodLog,Wall_WoodLog</li>
@@ -419,8 +419,8 @@
         <li>Wall_WoodLog,Wall_WoodLog,.,.,.,.,.,.,.,.,.,Wall_WoodLog,Wall_WoodLog</li>
         <li>Wall_WoodLog,Bedroll_Leather_Light_East,.,.,.,.,.,.,.,.,.,Bedroll_Leather_Light_West,Wall_WoodLog</li>
         <li>Wall_WoodLog,Bedroll_Leather_Light_East,.,.,.,.,.,.,.,.,.,Bedroll_Leather_Light_West,Wall_WoodLog</li>
-        <li>Wall_WoodLog,Bedroll_Leather_Light_East,.,.,.,PassiveCooler_Fuel82,Column_WoodLog,PassiveCooler_Fuel82,.,.,.,Bedroll_Leather_Light_West,Wall_WoodLog</li>
-        <li>Wall_WoodLog,Bedroll_Leather_Light_East,.,.,.,.,Campfire_South_Fuel56,.,.,.,.,Bedroll_Leather_Light_West,Wall_WoodLog</li>
+        <li>Wall_WoodLog,Bedroll_Leather_Light_East,.,.,.,PassiveCooler,Column_WoodLog,PassiveCooler,.,.,.,Bedroll_Leather_Light_West,Wall_WoodLog</li>
+        <li>Wall_WoodLog,Bedroll_Leather_Light_East,.,.,.,.,Campfire_South,.,.,.,.,Bedroll_Leather_Light_West,Wall_WoodLog</li>
         <li>Wall_WoodLog,Bedroll_Leather_Light_East,.,.,.,.,.,.,.,.,.,Bedroll_Leather_Light_West,Wall_WoodLog</li>
         <li>Wall_WoodLog,Wall_WoodLog,.,.,.,.,.,.,.,.,.,Wall_WoodLog,Wall_WoodLog</li>
         <li>.,Wall_WoodLog,Wall_WoodLog,.,.,.,.,.,.,.,Wall_WoodLog,Wall_WoodLog,.</li>
@@ -477,9 +477,9 @@
         <li>.,Wall_WoodLog,Wall_WoodLog,.,.,SimpleResearchBench_WoodLog_South,.,.,.,.,Wall_WoodLog,Wall_WoodLog,.</li>
         <li>Wall_WoodLog,Wall_WoodLog,.,.,.,Stool_WoodLog_North,.,.,.,.,.,Wall_WoodLog,Wall_WoodLog</li>
         <li>Wall_WoodLog,.,.,.,.,.,.,.,.,.,.,.,Wall_WoodLog</li>
-        <li>Wall_WoodLog,.,.,.,.,.,PassiveCooler_Fuel70,.,.,Stool_WoodLog_West,SimpleResearchBench_WoodLog_East,.,Wall_WoodLog</li>
+        <li>Wall_WoodLog,.,.,.,.,.,PassiveCooler,.,.,Stool_WoodLog_West,SimpleResearchBench_WoodLog_East,.,Wall_WoodLog</li>
         <li>Door_WoodLog,.,.,.,.,Campfire_East_Fuel26,Column_WoodLog,.,.,.,.,.,Wall_WoodLog</li>
-        <li>Wall_WoodLog,.,.,.,.,.,PassiveCooler_Fuel70,.,.,.,.,.,Wall_WoodLog</li>
+        <li>Wall_WoodLog,.,.,.,.,.,PassiveCooler,.,.,.,.,.,Wall_WoodLog</li>
         <li>Wall_WoodLog,.,.,.,.,.,.,.,.,.,.,.,Wall_WoodLog</li>
         <li>Wall_WoodLog,Wall_WoodLog,.,.,.,.,.,Stool_WoodLog_South,.,.,.,Wall_WoodLog,Wall_WoodLog</li>
         <li>.,Wall_WoodLog,Wall_WoodLog,.,.,.,.,SimpleResearchBench_WoodLog_North,.,.,Wall_WoodLog,Wall_WoodLog,.</li>
@@ -534,9 +534,9 @@
         <li>.,Wall_WoodLog,Wall_WoodLog,.,.,SimpleResearchBench_WoodLog_South,.,.,.,.,Wall_WoodLog,Wall_WoodLog,.</li>
         <li>Wall_WoodLog,Wall_WoodLog,.,.,.,Stool_WoodLog_North,.,.,.,.,.,Wall_WoodLog,Wall_WoodLog</li>
         <li>Wall_WoodLog,.,.,.,.,.,.,.,.,.,.,.,Wall_WoodLog</li>
-        <li>Wall_WoodLog,.,.,.,.,.,PassiveCooler_Fuel70,.,.,.,.,.,Wall_WoodLog</li>
-        <li>Wall_WoodLog,.,.,.,.,.,Column_WoodLog,Campfire_West_Fuel26,.,.,.,.,Door_WoodLog</li>
-        <li>Wall_WoodLog,.,SimpleResearchBench_WoodLog_West,Stool_WoodLog_East,.,.,PassiveCooler_Fuel70,.,.,.,.,.,Wall_WoodLog</li>
+        <li>Wall_WoodLog,.,.,.,.,.,PassiveCooler,.,.,.,.,.,Wall_WoodLog</li>
+        <li>Wall_WoodLog,.,.,.,.,.,Column_WoodLog,Campfire_West,.,.,.,.,Door_WoodLog</li>
+        <li>Wall_WoodLog,.,SimpleResearchBench_WoodLog_West,Stool_WoodLog_East,.,.,PassiveCooler,.,.,.,.,.,Wall_WoodLog</li>
         <li>Wall_WoodLog,.,.,.,.,.,.,.,.,.,.,.,Wall_WoodLog</li>
         <li>Wall_WoodLog,Wall_WoodLog,.,.,.,.,.,Stool_WoodLog_South,.,.,.,Wall_WoodLog,Wall_WoodLog</li>
         <li>.,Wall_WoodLog,Wall_WoodLog,.,.,.,.,SimpleResearchBench_WoodLog_North,.,.,Wall_WoodLog,Wall_WoodLog,.</li>
@@ -591,8 +591,8 @@
         <li>.,Wall_WoodLog,Wall_WoodLog,.,.,.,.,.,.,.,Wall_WoodLog,Wall_WoodLog,.</li>
         <li>Wall_WoodLog,Wall_WoodLog,.,.,.,.,.,.,.,.,.,Wall_WoodLog,Wall_WoodLog</li>
         <li>Wall_WoodLog,.,.,.,.,.,.,.,.,.,.,.,Wall_WoodLog</li>
-        <li>Wall_WoodLog,.,.,.,.,.,Campfire_North_Fuel26,.,.,Stool_WoodLog_West,SimpleResearchBench_WoodLog_East,.,Wall_WoodLog</li>
-        <li>Wall_WoodLog,.,.,.,.,PassiveCooler_Fuel70,Column_WoodLog,PassiveCooler_Fuel70,.,.,.,.,Wall_WoodLog</li>
+        <li>Wall_WoodLog,.,.,.,.,.,Campfire_North,.,.,Stool_WoodLog_West,SimpleResearchBench_WoodLog_East,.,Wall_WoodLog</li>
+        <li>Wall_WoodLog,.,.,.,.,PassiveCooler,Column_WoodLog,PassiveCooler,.,.,.,.,Wall_WoodLog</li>
         <li>Wall_WoodLog,.,SimpleResearchBench_WoodLog_West,Stool_WoodLog_East,.,.,.,.,.,.,.,.,Wall_WoodLog</li>
         <li>Wall_WoodLog,.,.,.,.,.,.,.,.,.,.,.,Wall_WoodLog</li>
         <li>Wall_WoodLog,Wall_WoodLog,.,.,.,.,.,Stool_WoodLog_South,.,.,.,Wall_WoodLog,Wall_WoodLog</li>
@@ -649,8 +649,8 @@
         <li>Wall_WoodLog,Wall_WoodLog,.,.,.,Stool_WoodLog_North,.,.,.,.,.,Wall_WoodLog,Wall_WoodLog</li>
         <li>Wall_WoodLog,.,.,.,.,.,.,.,.,.,.,.,Wall_WoodLog</li>
         <li>Wall_WoodLog,.,.,.,.,.,.,.,.,Stool_WoodLog_West,SimpleResearchBench_WoodLog_East,.,Wall_WoodLog</li>
-        <li>Wall_WoodLog,.,.,.,.,PassiveCooler_Fuel70,Column_WoodLog,PassiveCooler_Fuel70,.,.,.,.,Wall_WoodLog</li>
-        <li>Wall_WoodLog,.,SimpleResearchBench_WoodLog_West,Stool_WoodLog_East,.,.,Campfire_South_Fuel26,.,.,.,.,.,Wall_WoodLog</li>
+        <li>Wall_WoodLog,.,.,.,.,PassiveCooler,Column_WoodLog,PassiveCooler,.,.,.,.,Wall_WoodLog</li>
+        <li>Wall_WoodLog,.,SimpleResearchBench_WoodLog_West,Stool_WoodLog_East,.,.,Campfire_South,.,.,.,.,.,Wall_WoodLog</li>
         <li>Wall_WoodLog,.,.,.,.,.,.,.,.,.,.,.,Wall_WoodLog</li>
         <li>Wall_WoodLog,Wall_WoodLog,.,.,.,.,.,.,.,.,.,Wall_WoodLog,Wall_WoodLog</li>
         <li>.,Wall_WoodLog,Wall_WoodLog,.,.,.,.,.,.,.,Wall_WoodLog,Wall_WoodLog,.</li>
