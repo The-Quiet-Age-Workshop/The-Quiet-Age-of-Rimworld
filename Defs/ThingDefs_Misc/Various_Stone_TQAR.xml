@@ -49,6 +49,7 @@
     </graphicData>
     <statBases>
       <Mass>10</Mass>
+      <DeteriorationRate>0.75</DeteriorationRate>
     </statBases>
     <soundDrop>ChunkRock_Drop</soundDrop>
     <butcherProducts>
@@ -66,6 +67,7 @@
     <statBases>
       <Mass>1</Mass>
       <SharpDamageMultiplier>0.5</SharpDamageMultiplier>
+      <DeteriorationRate>0.5</DeteriorationRate>
     </statBases>
     <stuffProps>
       <color>(43,34,56)</color>
