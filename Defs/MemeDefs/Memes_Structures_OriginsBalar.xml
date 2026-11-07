@@ -75,6 +75,7 @@
       <rulesStrings>
         <li>r_deityName->Lesavira</li>
         <li>r_deityName->The Eerie Erie</li>
+        <li>r_deityName->The Wali</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
@@ -83,7 +84,7 @@
     <defName>DietyTypeMakerLesavira</defName>
     <rulePack>
       <rulesStrings>
-        <li>r_deityType->Protector of The Djinists</li>
+        <li>r_deityType->Guide of The Djinists</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
